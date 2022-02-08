@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Zoom from "@mui/material/Zoom";
-import ResponsiveAppBar from "./Navbar";
+import ResponsiveAppBar from "./Navbar.tsx";
 
 interface Props {
   window?: () => Window;
@@ -53,12 +53,7 @@ export default function BackToTop(props: Props) {
     <React.Fragment>
       <CssBaseline />
       <AppBar>
-        <Toolbar>
-          {/* <Typography variant="h6" component="div">
-            Scroll to see button
-          </Typography> */}
-          <ResponsiveAppBar />
-        </Toolbar>
+        <ResponsiveAppBar />
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
 

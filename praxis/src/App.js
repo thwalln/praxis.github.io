@@ -1,5 +1,5 @@
-import Footer from "./components/footer/Footer";
-import Header from "./components/navbar/Header";
+import Header from "./components/navbar/Header.tsx";
+import Footer from "./components/footer/Footer.tsx";
 import "./App.css";
 
 function App() {
