@@ -1,12 +1,12 @@
-import Navbar from "./components/navbar/Navbar.tsx";
+import Footer from "./components/footer/Footer.tsx";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
