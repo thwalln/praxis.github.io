@@ -4,19 +4,20 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
 
-function Copyright() {
+const Copyright = () => {
   return (
     <Typography variant="body2" color="text.secondary">
-      {"Copyright © "}
+      Webdesign by{" "}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
+        Thomas Wallner
+      </Link>
       {"."}
     </Typography>
   );
-}
+};
 
 export default function StickyFooter() {
   return (
@@ -24,20 +25,11 @@ export default function StickyFooter() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh",
+        minHeight: "92vh",
       }}
     >
       <CssBaseline />
-      <Container component="main" sx={{ mt: 8, mb: 2 }} maxWidth="sm">
-        <Typography variant="h2" component="h1" gutterBottom>
-          Sticky footer
-        </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
-          {"Pin a footer to the bottom of the viewport."}
-          {"The footer will move as the main element of the page grows."}
-        </Typography>
-        <Typography variant="body1">Sticky footer placeholder.</Typography>
-      </Container>
+
       <Box
         component="footer"
         sx={{
@@ -50,11 +42,26 @@ export default function StickyFooter() {
               : theme.palette.grey[800],
         }}
       >
-        <Container maxWidth="sm">
-          <Typography variant="body1">
-            My sticky footer can be found here.
-          </Typography>
-          <Copyright />
+        <Container
+          maxWidth="sm"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <Typography variant="body1">
+              © {new Date().getFullYear()} Dr. med. Irene Wallner und Dr. med.
+              Florian Gesele
+            </Typography>
+            <Copyright />
+          </div>
+          <div>
+            <Button variant="text">Impressum</Button>
+            <Button variant="text">Datenschutz</Button>
+          </div>
         </Container>
       </Box>
     </Box>
