@@ -7,20 +7,10 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = [
-  "Unsere Praxis",
-  "Unsere Leistungen",
-  "Öffnungszeiten",
-  "Team",
-  "Anfahrt",
-  "Kontakt",
-];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+// #297293
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
