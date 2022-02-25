@@ -16,15 +16,30 @@ header {
   height: 64px;
 }
 
-main {
-  background-color: pink;
+.hero {
+  background-image: url('./assets/andreas-kretschmer-1ZLxTZ1rSX4-unsplash.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro {
+  background-image: url('./assets/andreas-kretschmer-Ox_QTFRjf6g-unsplash.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.section {
+  background-color: #111;
+  height: 100vh;
 }
 
 footer {
-  background-color: #297393;
+  align-items: center;
+  background-color: #111;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
+  height: 50vh;
   justify-content: space-around;
   padding: 64px;
   line-height: 2rem;
