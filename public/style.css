@@ -21,17 +21,17 @@ main {
 }
 
 footer {
-  background-color: #000;
+  background-color: #297393;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 64px;
+  line-height: 2rem;
 }
 
 .footer-list {
   list-style-type: none;
-  line-height: 2rem;
   margin-bottom: 16px;
 }
 
@@ -42,4 +42,14 @@ footer {
 
 .footer-list a:hover {
   color: red;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+img {
+  filter: invert();
 }
