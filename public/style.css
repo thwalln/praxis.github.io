@@ -16,10 +16,45 @@ header {
   bottom: auto;
   display: flex;
   left: 0;
-  padding: 8px 32px;
+  padding: 0 32px;
   position: fixed;
   right: 0;
   top: 0;
+}
+
+.navigation {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.navigation a {
+  color: #55565a;
+  padding: 16px;
+  height: 100%;
+  text-decoration: none;
+}
+
+.phone-header {
+  align-items: center;
+  background-color: #2f7393;
+  border: 1px solid #2f7393;
+  border-radius: 32px;
+  color: #fff;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.txt-icon-left {
+  width: 16px;
+  filter: invert();
+}
+
+.txt-icon-right {
+  color: #fff;
 }
 
 .logo {
@@ -32,13 +67,8 @@ header {
   align-items: center;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navigation a {
-  padding: 16px;
+.nav-selection {
+  height: 100%;
 }
 
 main {
