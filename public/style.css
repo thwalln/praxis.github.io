@@ -45,6 +45,41 @@ main {
   padding: 100px 0;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.welcome p {
+  text-transform: uppercase;
+}
+
+.welcome h1 {
+  font-size: 2rem;
+}
+
+.portrait {
+  width: 504px;
+}
+
+.sprechzeiten-btn {
+  border: 1px solid #2f7393;
+  color: #2f7393;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sprechzeiten-btn:hover {
+  background-color: #2f7393;
+  color: #fff;
+}
+
 /* .hero {
   background-image: url('./assets/andreas-kretschmer-1ZLxTZ1rSX4-unsplash.png');
   background-size: cover;
