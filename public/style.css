@@ -87,3 +87,30 @@ header {
 /* END HEADER */
 
 /* BEGINNING MAIN SECTION */
+
+.intro {
+  margin: auto;
+  margin-top: 156px;
+  display: flex;
+  height: 100%;
+  /* background-color: pink; */
+  width: 100%;
+  max-width: 1400px;
+  justify-content: center;
+}
+
+.one,
+.two {
+  height: 400px;
+  width: 100%;
+}
+
+.one {
+  background-color: green;
+}
+
+.pic {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
