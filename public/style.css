@@ -27,7 +27,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 8px 0 0 0;
 }
 
 .nav-wrapper,
@@ -50,8 +49,12 @@ header {
   color: #55565a;
   display: flex;
   height: 100%;
-  padding: 16px;
+  padding: 16px 24px;
   text-decoration: none;
+}
+
+.nav-selection:hover {
+  background-color: pink;
 }
 
 .phone-header {
@@ -62,13 +65,13 @@ header {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding: 16px;
+  padding: 12px 28px;
   margin-right: 32px;
   text-decoration: none;
 }
 
 .txt-icon-left {
-  width: 16px;
+  width: 14px;
   filter: invert();
 }
 
@@ -77,97 +80,10 @@ header {
 }
 
 .logo {
-  height: 80px;
+  height: 88px;
+  padding-top: 8px;
 }
 
-/* main {
-  padding: 100px 0;
-}
+/* END HEADER */
 
-.container {
-  display: flex;
-  justify-content: space-around;
-}
-
-.welcome {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.welcome p {
-  text-transform: uppercase;
-}
-
-.welcome h1 {
-  font-size: 2rem;
-}
-
-.portrait {
-  width: 504px;
-} */
-
-/* .sprechzeiten-btn {
-  border: 1px solid #2f7393;
-  color: #2f7393;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.sprechzeiten-btn:hover {
-  background-color: #2f7393;
-  color: #fff;
-} */
-
-/* .hero {
-  background-image: url('./assets/andreas-kretschmer-1ZLxTZ1rSX4-unsplash.png');
-  background-size: cover;
-  height: 100vh;
-}
-
-.intro {
-  background-image: url('./assets/andreas-kretschmer-Ox_QTFRjf6g-unsplash.png');
-  background-size: cover;
-  height: 100vh;
-}
-
-.section {
-  background-color: #111;
-  height: 100vh;
-} */
-
-/* footer {
-  align-items: center;
-  background-color: #111;
-  color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  height: 50vh;
-  justify-content: space-around;
-  padding: 64px;
-  line-height: 2rem;
-} */
-/* 
-.footer-list {
-  list-style-type: none;
-  margin-bottom: 16px;
-}
-
-.footer-list a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-list a:hover {
-  color: green;
-}
-
-.icon {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-} */
-
-/* img {
-  filter: invert();
-} */
+/* BEGINNING MAIN SECTION */
