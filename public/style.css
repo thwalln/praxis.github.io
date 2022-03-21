@@ -31,9 +31,18 @@ header {
 
 .navigation a {
   color: #55565a;
-  padding: 16px;
   height: 100%;
+  padding: 16px;
   text-decoration: none;
+}
+
+.navigation a:hover {
+  color: red;
+  border-bottom: 3px red solid;
+}
+
+.navigation a:active {
+  color: red;
 }
 
 .phone-header {
