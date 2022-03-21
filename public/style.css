@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #fff;
-  border-bottom: 1px solid #b3b3b3;
+  border-bottom: 1px solid #e1e5e6;
   bottom: auto;
   display: flex;
   left: 0;
@@ -30,31 +30,31 @@ header {
   padding: 8px 0 0 0;
 }
 
-.nav {
+.nav-wrapper,
+.btn-wrapper {
   align-items: center;
   display: flex;
   height: 100%;
   justify-content: space-between;
 }
 
-.nav a {
+.nav-wrapper-child {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+}
+
+.nav-selection {
+  align-items: center;
+  align-self: center;
   color: #55565a;
+  display: flex;
   height: 100%;
   padding: 16px;
   text-decoration: none;
 }
 
-.nav a:hover {
-  color: red;
-  border-bottom: 3px red solid;
-}
-
-.nav a:active {
-  color: red;
-}
-
 .phone-header {
-  align-items: center;
   background-color: #2f7393;
   border: 1px solid #2f7393;
   border-radius: 32px;
@@ -62,6 +62,7 @@ header {
   display: flex;
   gap: 8px;
   justify-content: center;
+  padding: 16px;
   margin-right: 32px;
   text-decoration: none;
 }
