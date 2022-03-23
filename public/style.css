@@ -428,3 +428,26 @@ h3 {
 .block:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1068px) {
+  .container-grid-sprechzeiten {
+    display: grid;
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-row-gap: 32px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container-description {
+    min-height: 600px;
+    background-color: #fff;
+    width: 100%;
+    display: grid;
+    margin: 0;
+    color: #333;
+    grid-template-columns: 1fr;
+  }
+}
