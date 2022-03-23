@@ -77,12 +77,22 @@ header {
 
 /* BEGINNING MAIN SECTION */
 
+.container-intro {
+  background-image: url('./assets/test2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: yellow;
+  margin: 0;
+  /* max-width: 1400px; */
+}
+
 .intro {
-  margin: auto;
-  margin-top: 156px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 156px 0;
   display: flex;
   height: 100%;
-  /* background-color: pink; */
   width: 100%;
   max-width: 1400px;
   justify-content: center;
@@ -91,12 +101,19 @@ header {
 .one,
 .two {
   height: 400px;
-  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2rem;
+  gap: 26px;
+  padding-top: 95px;
 }
 
-.one {
+/* .one {
   background-color: green;
-}
+} */
 
 .pic {
   object-fit: scale-down;
@@ -178,7 +195,7 @@ header {
   min-width: 56px;
 }
 
-.container {
+#container-sprechzeiten {
   background-color: #f7f8fa;
   padding: 80px 0;
 }
@@ -232,4 +249,21 @@ header {
 
 .btn-secondary-wrapper {
   display: inline-block;
+}
+
+.btn-light {
+  background-image: url('./assets/chevron-down-white.svg');
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-size: 28px;
+  background-color: transparent;
+  padding: 8px 28px 8px 48px;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+.btn-light:hover {
+  background-image: url('./assets/chevron-down-blue.svg');
+  background-color: #fff;
+  color: #2f7393;
 }
