@@ -117,15 +117,42 @@ header {
 
 /* Sprechzeiten */
 
-.container {
-  background-color: grey;
+.container-grid-sprechzeiten {
+  display: grid;
+  width: 100%;
+  max-width: 1200px;
+  margin: 128px auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
-.sprechzeiten {
-  background-color: yellow;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1400px;
-  margin: 128px auto;
-  padding: 8px;
+.time-list {
+  color: #57606a;
+  display: flex;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e1e5e6;
+  align-items: flex-start;
+}
+
+.day-wrap {
+  color: #333333;
+  min-width: 130px;
+  font-weight: 500;
+}
+
+.daytime-holder {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.list {
+  padding-left: 0;
+  font-size: 15px;
+  line-height: 24px;
+  list-style-type: none;
 }
