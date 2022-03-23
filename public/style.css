@@ -53,21 +53,6 @@ header {
   text-decoration: none;
 }
 
-.nav-selection:hover {
-  background-color: pink;
-}
-
-/* .txt-icon-left {
-  width: 14px;
-  background-image: url('./assets/phone.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-.txt-icon-right {
-  color: #fff;
-}
-
 .logo {
   height: 88px;
   padding-top: 8px;
@@ -257,7 +242,7 @@ header {
   background-color: transparent;
   padding: 8px 28px 8px 48px;
   color: #fff;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
 }
 
 .btn-light:hover {
@@ -273,6 +258,7 @@ header {
   max-width: 1200px;
   display: grid;
   margin: auto;
+
   grid-template-columns: 1fr 1fr;
 }
 
@@ -284,4 +270,10 @@ header {
   max-width: 40vw;
   height: 100%;
   margin: auto;
+}
+
+.expectations {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
 }
