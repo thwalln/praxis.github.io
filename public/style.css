@@ -57,23 +57,12 @@ header {
   background-color: pink;
 }
 
-.phone-header {
-  background-color: #2f7393;
-  border: 1px solid #2f7393;
-  border-radius: 32px;
-  color: #fff;
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  padding: 12px 28px;
-  margin-right: 32px;
-  text-decoration: none;
-}
-
-.txt-icon-left {
+/* .txt-icon-left {
   width: 14px;
-  filter: invert();
-}
+  background-image: url('./assets/phone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 
 .txt-icon-right {
   color: #fff;
@@ -132,13 +121,14 @@ header {
   align-items: center;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 16px;
 }
 
 .container-grid-sprechzeiten {
   display: grid;
   width: 100%;
   max-width: 1200px;
-  margin: 128px auto;
+  margin: auto;
   padding-right: 30px;
   padding-left: 30px;
   grid-template-columns: repeat(3, 1fr);
@@ -172,4 +162,72 @@ header {
   font-size: 15px;
   line-height: 24px;
   list-style-type: none;
+}
+
+.paragraph {
+  color: #57606a;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.container {
+  background-color: #f7f8fa;
+  padding: 80px 0;
+}
+
+.btn {
+  border-radius: 32px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 28px 12px 42px;
+  margin-right: 32px;
+  text-decoration: none;
+  border: 3px solid #2f7393;
+}
+
+.btn-primary {
+  background-image: url('./assets/phone-white.svg');
+  background-color: #2f7393;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-size: 20px;
+
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-image: url('./assets/phone-blue.svg');
+  background-color: #fff;
+  color: #2f7393;
+}
+
+.btn-secondary {
+  background-image: url('./assets/phone-blue.svg');
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-size: 20px;
+  background-color: transparent;
+  font-size: 15px;
+  color: #2f7393;
+
+  margin: auto;
+}
+
+.btn-secondary:hover {
+  background-image: url('./assets/phone-white.svg');
+  background-color: #2f7393;
+  color: #fff;
+}
+.txt-icon-left:hover {
+  background-image: url('./assets/map.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-secondary-wrapper {
+  display: inline-block;
 }
