@@ -173,17 +173,24 @@ header {
   line-height: 24px;
 }
 
+.praxis-info-span {
+  display: inline-block;
+  min-width: 56px;
+}
+
 .container {
   background-color: #f7f8fa;
   padding: 80px 0;
 }
+
+/* Buttons*/
 
 .btn {
   border-radius: 32px;
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding: 12px 28px 12px 42px;
+  padding: 8px 28px 8px 42px;
   margin-right: 32px;
   text-decoration: none;
   border: 3px solid #2f7393;
@@ -213,19 +220,14 @@ header {
   background-color: transparent;
   font-size: 15px;
   color: #2f7393;
-
   margin: auto;
+  padding: 6px 28px 6px 42px;
 }
 
 .btn-secondary:hover {
   background-image: url('./assets/phone-white.svg');
   background-color: #2f7393;
   color: #fff;
-}
-.txt-icon-left:hover {
-  background-image: url('./assets/map.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .btn-secondary-wrapper {
