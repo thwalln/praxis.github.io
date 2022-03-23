@@ -77,12 +77,17 @@ header {
 
 /* BEGINNING MAIN SECTION */
 
+.content-wrapper {
+  background-color: #f7f8fa;
+}
+
 .container-intro {
   background-image: url('./assets/test2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
+  height: 100vh;
 }
 
 .intro {
@@ -94,10 +99,10 @@ header {
   width: 100%;
   max-width: 1400px;
   justify-content: center;
+  align-items: center;
 }
 
-.one,
-.two {
+.one {
   height: 400px;
   max-width: 1200px;
   display: flex;
@@ -106,7 +111,7 @@ header {
   align-items: center;
   line-height: 2rem;
   gap: 26px;
-  padding-top: 95px;
+  padding-top: 190px;
 }
 
 .pic {
@@ -204,7 +209,7 @@ header {
   padding: 8px 28px 8px 42px;
   margin-right: 32px;
   text-decoration: none;
-  border: 3px solid #2f7393;
+  border: 2px solid #2f7393;
 }
 
 .btn-primary {
@@ -213,7 +218,6 @@ header {
   background-repeat: no-repeat;
   background-position: 10% 50%;
   background-size: 20px;
-
   color: #fff;
 }
 
@@ -260,4 +264,24 @@ header {
   background-image: url('./assets/chevron-down-blue.svg');
   background-color: #fff;
   color: #2f7393;
+}
+
+.container-description {
+  min-height: 600px;
+  background-color: #f7f8fa;
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pic {
+  object-fit: cover;
+}
+
+.text {
+  max-width: 40vw;
+  height: 100%;
+  margin: auto;
 }
