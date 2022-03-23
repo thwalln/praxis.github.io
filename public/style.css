@@ -117,6 +117,23 @@ header {
 
 /* Sprechzeiten */
 
+.icon-sidebar {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.heading-bar {
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 1;
+  color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .container-grid-sprechzeiten {
   display: grid;
   width: 100%;
