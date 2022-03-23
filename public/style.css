@@ -317,3 +317,15 @@ header {
   background-color: #f7f8fa;
   padding: 80px 0;
 }
+
+.icon {
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 8px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
