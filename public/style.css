@@ -253,12 +253,11 @@ header {
 
 .container-description {
   min-height: 600px;
-  background-color: #f7f8fa;
+  background-color: #fff;
   width: 100%;
-  max-width: 1200px;
   display: grid;
-  margin: auto;
-
+  margin: 0;
+  color: #333;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -267,8 +266,15 @@ header {
 }
 
 .text {
-  max-width: 40vw;
   height: 100%;
+  line-height: 3rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  background-color: #fff;
+  max-width: 40vw;
   margin: auto;
 }
 
@@ -276,4 +282,8 @@ header {
   display: flex;
   gap: 8px;
   align-items: flex-start;
+}
+
+.container-description .list {
+  color: #57606a;
 }
