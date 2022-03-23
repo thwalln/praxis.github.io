@@ -82,9 +82,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: yellow;
   margin: 0;
-  /* max-width: 1400px; */
 }
 
 .intro {
@@ -110,10 +108,6 @@ header {
   gap: 26px;
   padding-top: 95px;
 }
-
-/* .one {
-  background-color: green;
-} */
 
 .pic {
   object-fit: scale-down;
