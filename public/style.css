@@ -184,47 +184,54 @@ header {
   padding: 80px 0;
 }
 
-/* Buttons*/
+/* Buttons */
 
 .btn {
   border-radius: 32px;
   display: flex;
   gap: 8px;
+  padding: 8px;
   justify-content: center;
-  padding: 8px 28px 8px 42px;
-  margin-right: 32px;
   text-decoration: none;
   border: 2px solid #2f7393;
 }
 
 .btn-primary {
+  color: #fff;
+}
+
+.btn-primary-phone {
+  padding: 8px 28px 8px 42px;
   background-image: url('./assets/phone-white.svg');
   background-color: #2f7393;
   background-repeat: no-repeat;
   background-position: 10% 50%;
   background-size: 20px;
-  color: #fff;
 }
 
-.btn-primary:hover {
+.btn-primary-phone:hover {
   background-image: url('./assets/phone-blue.svg');
   background-color: #fff;
   color: #2f7393;
 }
 
 .btn-secondary {
+  font-size: 15px;
+  color: #2f7393;
+  margin: auto;
+}
+
+.btn-secondary-phone {
+  padding: 6px 28px 6px 42px;
   background-image: url('./assets/phone-blue.svg');
   background-repeat: no-repeat;
   background-position: 10% 50%;
   background-size: 20px;
   background-color: transparent;
   font-size: 15px;
-  color: #2f7393;
-  margin: auto;
-  padding: 6px 28px 6px 42px;
 }
 
-.btn-secondary:hover {
+.btn-secondary-phone:hover {
   background-image: url('./assets/phone-white.svg');
   background-color: #2f7393;
   color: #fff;
@@ -250,6 +257,12 @@ header {
   background-color: #fff;
   color: #2f7393;
 }
+
+.btn-plain {
+  padding: 8px;
+}
+
+/* End Buttons */
 
 .container-description {
   min-height: 600px;
