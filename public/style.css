@@ -259,7 +259,18 @@ header {
 }
 
 .btn-plain {
-  padding: 8px;
+  border-radius: 32px;
+  display: flex;
+  padding: 6px 24px;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid #2f7393;
+  line-height: 1.5rem;
+}
+
+.btn-plain:hover {
+  background-color: #2f7393;
+  color: #fff;
 }
 
 /* End Buttons */
@@ -295,6 +306,7 @@ header {
   display: flex;
   gap: 8px;
   align-items: flex-start;
+  line-height: 1.5rem;
 }
 
 .container-description .list {
