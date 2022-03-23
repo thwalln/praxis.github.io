@@ -312,3 +312,8 @@ header {
 .container-description .list {
   color: #57606a;
 }
+
+.container-bottom {
+  background-color: #f7f8fa;
+  padding: 80px 0;
+}
