@@ -369,8 +369,19 @@ h4 {
 .container-footer {
   max-width: 1200px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
   padding: 120px 0;
   border-bottom: 1px solid #e1e5e6;
+}
+
+.footer-list {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-description {
+  max-width: 300px;
 }
 
 #copy {
