@@ -187,6 +187,10 @@ header {
   background-color: #f7f8fa;
 }
 
+.divider {
+  height: 93px;
+}
+
 /* BEGINNING HERO CONTAINER */
 
 .container-hero {
