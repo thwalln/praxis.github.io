@@ -33,6 +33,11 @@ h4 {
   font-weight: 300;
 }
 
+h5 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
 .heading-icon--left {
   align-self: baseline;
   align-items: center;
@@ -350,6 +355,32 @@ header {
   margin: auto;
   max-width: 40vw;
   padding: 48px 0;
+}
+
+.container-card--exclusive {
+  background-color: #fff;
+  color: #333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 400px;
+  width: 100%;
+}
+
+.card-text--exclusive {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 100%;
+  justify-content: flex-start;
+  line-height: 3rem;
+  margin: auto;
+  max-width: 40vw;
+}
+
+.image-wrapper {
+  max-height: 400px;
 }
 
 .card-text {
