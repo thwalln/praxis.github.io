@@ -232,6 +232,11 @@ header {
 
 /* BEGINNING SPRECHZEITEN CONTAINER */
 
+#container-sprechzeiten--exclusive {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
 #container-sprechzeiten {
   background-color: #f7f8fa;
   padding: 80px 0;
@@ -480,6 +485,15 @@ header {
 
 /* BEGINNING FOOTER */
 
+.container-footer--exclusive {
+  border-bottom: 1px solid #e1e5e6;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 60px 0 40px 0;
+}
+
 .container-footer {
   border-bottom: 1px solid #e1e5e6;
   display: flex;
@@ -540,6 +554,7 @@ header {
   max-width: 50vw;
   margin: auto;
   padding-top: 185px;
+  padding-bottom: 40px;
 }
 
 .main-wrapper h2 {
@@ -559,12 +574,14 @@ header {
 }
 
 .carousel {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
 }
 
 .testpic {
   object-fit: contain;
+  display: inline-block;
+  /* width: 25%; */
+  width: 25%;
 }
 
 @media (max-width: 1068px) {
