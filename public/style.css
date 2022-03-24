@@ -95,44 +95,52 @@ header {
 
 /* BEGINNING HERO CONTAINER */
 
-/**/
+/* BEGINNING SPRECHZEITEN CONTAINER */
 
-.pic {
-  object-fit: scale-down;
-  width: 100%;
-  height: 100%;
+#container-sprechzeiten {
+  background-color: #f7f8fa;
+  padding: 80px 0;
 }
 
-/* Sprechzeiten */
-
-.icon-sidebar {
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.heading-bar {
-  margin-top: 0;
-  margin-bottom: 0;
-  opacity: 1;
-  color: #333;
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-.container-grid-sprechzeiten {
+.container-sprechzeiten--grid {
   display: grid;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+  grid-column-gap: 48px;
+  grid-row-gap: 32px;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  margin: auto;
+  max-width: 80vw;
+  width: 100%;
+}
+
+.grid--flex {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icon--left {
+  align-items: center;
+  display: flex;
+  margin-right: 8px;
+}
+
+.grid--card--text {
+  color: #57606a;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.grid--card--span {
+  display: inline-block;
+  min-width: 56px;
+}
+
+.list {
+  padding-left: 0;
+  font-size: 15px;
+  line-height: 24px;
+  list-style-type: none;
 }
 
 .time-list {
@@ -156,30 +164,38 @@ header {
   flex: 1;
 }
 
-.list {
-  padding-left: 0;
-  font-size: 15px;
-  line-height: 24px;
-  list-style-type: none;
+/* END SPRECHZEITEN CONTAINER */
+
+/* BEGINNING CARD */
+
+/* END CARD */
+
+/* HEADINGS */
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.paragraph {
-  color: #57606a;
-  margin-bottom: 20px;
-  padding-right: 30px;
+h4 {
+  color: #2f7393;
+  font-weight: 400;
+}
+
+.heading-icon--left {
+  align-self: baseline;
+  align-items: center;
+  display: flex;
   opacity: 1;
-  font-size: 15px;
-  line-height: 24px;
 }
 
-.praxis-info-span {
-  display: inline-block;
-  min-width: 56px;
-}
+/* END HEADINGS */
 
-#container-sprechzeiten {
-  background-color: #f7f8fa;
-  padding: 80px 0;
+.pic {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
 }
 
 /* Buttons */
@@ -227,16 +243,13 @@ header {
   background-size: 20px;
   background-color: transparent;
   font-size: 15px;
+  display: inline-block;
 }
 
 .btn-secondary-phone:hover {
   background-image: url('./assets/phone-white.svg');
   background-color: #2f7393;
   color: #fff;
-}
-
-.btn-secondary-wrapper {
-  display: inline-block;
 }
 
 .btn-light {
@@ -338,15 +351,6 @@ header {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   text-align: center;
-}
-
-h4 {
-  color: #2f7393;
-  font-weight: 400;
-}
-
-h3 {
-  font-weight: 500;
 }
 
 .container-grid-bottom p {
