@@ -213,6 +213,11 @@ header {
   width: 100%;
 }
 
+.container-hero--heading {
+  color: #fff;
+  font-weight: 500;
+}
+
 /* END HERO CONTAINER */
 
 /* BEGINNING SPRECHZEITEN CONTAINER */
