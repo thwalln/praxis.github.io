@@ -147,6 +147,7 @@ header {
   position: fixed;
   right: 0;
   top: 0;
+  z-index: 1000;
 }
 
 .navigation-container {
@@ -265,6 +266,13 @@ header {
   opacity: 1;
 }
 
+.grid--card--text--exclusive {
+  color: #333;
+  font-size: 15px;
+  line-height: 24px;
+  opacity: 1;
+}
+
 .grid--card--span {
   display: inline-block;
   min-width: 56px;
@@ -303,7 +311,7 @@ header {
 /* BEGINNING CARD */
 
 .container-card-wrapper {
-  margin: 80px auto;
+  margin: 80px auto 0 auto;
   max-width: 80vw;
 }
 
@@ -362,7 +370,7 @@ header {
   color: #333;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 400px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -377,6 +385,13 @@ header {
   line-height: 3rem;
   margin: auto;
   max-width: 40vw;
+}
+
+.card-picture--exclusive {
+  height: 130%;
+  object-fit: cover;
+  width: 100%;
+  transform: translateY(-1%);
 }
 
 .image-wrapper {
@@ -515,11 +530,42 @@ header {
 #copy {
   color: #57606a;
   font-size: 0.75rem;
-  padding-top: 16px;
+  padding: 16px 0;
   text-align: center;
 }
 
 /* END FOOTER */
+
+.main-wrapper {
+  max-width: 50vw;
+  margin: auto;
+  padding-top: 185px;
+}
+
+.main-wrapper h2 {
+  line-height: 2.25rem;
+  margin: auto;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+.list-exclusive {
+  padding-left: 8px;
+  margin-top: 16px;
+}
+
+.info {
+  font-size: 0.75rem;
+}
+
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.testpic {
+  object-fit: contain;
+}
 
 @media (max-width: 1068px) {
   .container-grid-sprechzeiten {
