@@ -168,6 +168,22 @@ header {
 
 /* BEGINNING CARD */
 
+.container-description {
+  min-height: 600px;
+  background-color: #fff;
+  width: 100%;
+  display: grid;
+  margin: 0;
+  color: #333;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 /* END CARD */
 
 /* HEADINGS */
@@ -191,12 +207,6 @@ h4 {
 }
 
 /* END HEADINGS */
-
-.pic {
-  object-fit: scale-down;
-  width: 100%;
-  height: 100%;
-}
 
 /* Buttons */
 
@@ -285,20 +295,6 @@ h4 {
 }
 
 /* End Buttons */
-
-.container-description {
-  min-height: 600px;
-  background-color: #fff;
-  width: 100%;
-  display: grid;
-  margin: 0;
-  color: #333;
-  grid-template-columns: 1fr 1fr;
-}
-
-.pic {
-  object-fit: cover;
-}
 
 .text {
   height: 100%;
