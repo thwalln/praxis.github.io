@@ -10,6 +10,8 @@ body {
   min-height: 100vh;
 }
 
+/* HEADER */
+
 header {
   background-color: #fff;
   border-bottom: 1px solid #e1e5e6;
@@ -23,14 +25,14 @@ header {
 }
 
 .nav-container {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
 .nav-wrapper,
-.btn-wrapper {
+.btn-header {
   align-items: center;
   display: flex;
   height: 100%;
@@ -53,7 +55,7 @@ header {
   text-decoration: none;
 }
 
-.logo {
+#logo {
   height: 88px;
   padding-top: 8px;
 }
