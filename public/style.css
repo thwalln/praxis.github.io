@@ -17,6 +17,11 @@ h1 {
   font-weight: 400;
 }
 
+h2 {
+  color: #333;
+  font-weight: 300;
+}
+
 h3 {
   color: #333;
   font-size: 18px;
@@ -208,7 +213,7 @@ header {
   width: 100%;
 }
 
-/* BEGINNING HERO CONTAINER */
+/* END HERO CONTAINER */
 
 /* BEGINNING SPRECHZEITEN CONTAINER */
 
@@ -327,9 +332,17 @@ header {
 
 /* END CARD */
 
+/* BEGINNING BOTTOM CONTAINER */
+
+/* END BOTTOM CONTAINER */
+
 .container-bottom {
-  background-color: #f7f8fa;
   padding: 80px 0 16px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .icon {
@@ -363,13 +376,6 @@ header {
   opacity: 1;
   font-size: 15px;
   line-height: 24px;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 48px;
-  color: #333;
-  font-weight: 300;
 }
 
 /* FOOTER */
