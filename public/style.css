@@ -441,7 +441,7 @@ header {
 /* BEGINNING BOTTOM CONTAINER */
 
 .container-bottom {
-  padding: 80px 0 16px 0;
+  padding: 80px 0 0 0;
 }
 
 .section-title {
@@ -485,22 +485,13 @@ header {
 
 /* BEGINNING FOOTER */
 
-.container-footer--exclusive {
-  border-bottom: 1px solid #e1e5e6;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  max-width: 1200px;
-  padding: 60px 0 40px 0;
-}
-
 .container-footer {
   border-bottom: 1px solid #e1e5e6;
   display: flex;
   justify-content: space-between;
   margin: auto;
   max-width: 1200px;
-  padding: 120px 0 40px 0;
+  padding: 60px 0 40px 0;
 }
 
 .footer-description {
