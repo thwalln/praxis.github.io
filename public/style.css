@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 
-/* HEADER */
+/* BEGINNING HEADER */
 
 header {
   background-color: #fff;
@@ -49,7 +49,7 @@ header {
 
 .navigation-wrapper--right {
   align-self: stretch;
-  gap: 24px;
+  gap: 32px;
 }
 
 .navigation-item {
@@ -61,47 +61,41 @@ header {
 
 /* END HEADER */
 
-/* BEGINNING HERO SECTION */
+/* BEGINNING BODY*/
 
 .content-wrapper {
   background-color: #f7f8fa;
 }
 
+/* BEGINNING HERO CONTAINER */
+
 .container-hero {
   background-image: url('./assets/test2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  margin: 0;
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: calc(100vh - 93px);
+  margin-top: 93px;
 }
 
-.intro {
+.container-hero--content {
+  align-items: center;
   color: #fff;
-  margin: 0 auto;
-  padding: 156px 0;
   display: flex;
-  height: 100%;
-  width: 100%;
-  max-width: 1400px;
-  justify-content: center;
-  align-items: center;
-}
-
-.one {
-  height: 400px;
-  max-width: 83vw;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  gap: 32px;
+  justify-content: center;
   line-height: 2rem;
-  gap: 26px;
-  padding-top: 190px;
+  margin: auto;
+  max-width: 80vw;
   text-align: center;
+  width: 100%;
 }
 
-/* BEGINNING HERO SECTION */
+/* BEGINNING HERO CONTAINER */
+
+/**/
 
 .pic {
   object-fit: scale-down;
