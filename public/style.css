@@ -334,8 +334,6 @@ header {
 
 /* BEGINNING BOTTOM CONTAINER */
 
-/* END BOTTOM CONTAINER */
-
 .container-bottom {
   padding: 80px 0 16px 0;
 }
@@ -344,6 +342,8 @@ header {
   text-align: center;
   margin-bottom: 48px;
 }
+
+/* END BOTTOM CONTAINER */
 
 .icon {
   background-color: #fff;
