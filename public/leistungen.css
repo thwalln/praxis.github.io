@@ -13,6 +13,47 @@ body {
   line-height: 20px;
 }
 
+h1 {
+  margin: 0 0 24px;
+  color: #333;
+  font-size: 56px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: 'Plus Jakarta', sans-serif;
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 300;
+}
+
+.paragraph-2 {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.7em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
 .body-2 {
   background-color: #fff;
 }
@@ -114,6 +155,19 @@ img {
 .big-text-block {
   max-width: 720px;
   margin: auto;
+}
+
+.big-text-block li {
+  margin-bottom: 10px;
+  padding-left: 35px;
+  background-image: url('./assets/checkbox.svg');
+  background-position: 0 5px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 300;
+  list-style-type: none;
 }
 
 .hp-action-wrap {
