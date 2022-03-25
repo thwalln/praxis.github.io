@@ -679,4 +679,13 @@ img {
     padding-right: 24px;
     padding-left: 24px;
   }
+
+  .time-list {
+    font-size: 15px;
+    line-height: 1.6em;
+  }
+
+  .day-highlight {
+    min-width: 0;
+  }
 }
