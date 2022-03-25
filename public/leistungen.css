@@ -283,6 +283,11 @@ img {
   color: #333;
 }
 
+.copy p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
 /**/
 /**/
 /**/
@@ -327,6 +332,14 @@ img {
   .big-text-block {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .section.photo-section {
+    flex-wrap: wrap;
+  }
+
+  .feed-photo {
+    width: 50%;
   }
 }
 
