@@ -101,6 +101,10 @@ img {
   max-width: 100%;
 }
 
+.feed-photo {
+  width: 25%;
+}
+
 .section.large-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -110,6 +114,119 @@ img {
 .big-text-block {
   max-width: 720px;
   margin: auto;
+}
+
+.hp-action-wrap {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f7f8fa;
+}
+
+.hp-action-wrap.white {
+  padding-top: 90px;
+  background-color: #fff;
+  color: #333;
+}
+
+.action-box {
+  width: 100%;
+  max-width: 80vw;
+  margin: auto;
+  color: #333;
+}
+
+.content-grid {
+  display: grid;
+  margin: auto;
+  max-width: 80vw;
+  padding: 0 40px;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+}
+
+#sprechzeiten-uebersicht {
+  grid-column-end: 9;
+  grid-column-start: 5;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+
+#sprechzeiten-tabelle {
+  grid-column-end: 13;
+  grid-column-start: 9;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+
+#sprechzeiten-kontakt {
+  grid-column-end: 5;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+
+.section.photo-section {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 32px;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+.footer-flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  align-items: flex-start;
+  text-align: left;
+  color: #333;
+}
+
+.footer-flex-container-left {
+  max-width: 360px;
+  min-width: 60px;
+  flex: 0 auto;
+  text-decoration: none;
+}
+
+.footer-flex-container-right {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-2 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-2.footer-col {
+  margin-right: 64px;
+}
+
+.copy {
+  display: flex;
+  padding-top: 32px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e1e5e6;
+  color: #333;
 }
 
 /**/
