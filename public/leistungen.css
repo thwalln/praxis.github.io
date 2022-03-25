@@ -440,6 +440,14 @@ img {
   display: none;
 }
 
+.hamburger {
+  display: none;
+  position: relative;
+  z-index: 5;
+  padding: 8px;
+  cursor: pointer;
+}
+
 /**/
 /**/
 /**/
@@ -471,6 +479,10 @@ img {
 @media screen and (max-width: 991px) {
   .nav-mobile-wrapper {
     display: none;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
 
