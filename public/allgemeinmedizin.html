@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-    </style>
-    <title>Hausarztpraxis Farchant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="leistungen.css" />
+    <title>TEST</title>
   </head>
-  <body>
+  <body class="body-2">
     <header>
       <div class="navigation-container">
         <!-- HIER NOCH DEN LINK HINZUFÜGEN -->
@@ -36,173 +34,78 @@
         </div>
       </div>
     </header>
-    <div class="divider"></div>
-    <div class="container-card-wrapper">
-      <div class="container-card--exclusive">
-        <div class="card-text--exclusive">
-          <h5>Leistung</h5>
-          <h1>Allgemeinmedizin</h1>
-          <p class="grid--card--text">
-            Das oberste Gebot unseres medizinischen Handelns ist Empathie und
-            die Patientenzentrierung. Sie als Mensch mit Ihren Bedürfnissen,
-            Erfahrungen und Wünschen stehen im Mittelpunkt.
-          </p>
-        </div>
-        <div class="image-wrapper">
-          <img
-            src="./assets/test5.jpg"
-            alt=""
-            class="card-picture--exclusive"
-          />
+    <div class="section first-section no-padding-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="content-400">
+              <div>
+                <p class="paragraph-2">Leistung</p>
+                <h1>Allgemeinmedizin</h1>
+              </div>
+              <p>
+                Das oberste Gebot unseres medizinischen Handelns ist Empathie
+                und die Patientenzentrierung. Sie als Mensch mit Ihren
+                Bedürfnissen, Erfahrungen und Wünschen stehen im Mittelpunkt.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="div-block-8">
+              <img src="./assets/test5.jpg" alt="" class="leistung-img" />
+            </div>
+          </div>
         </div>
       </div>
+      <div class="background-element size-small grey"></div>
     </div>
-    <div class="content-wrapper">
-      <div class="main-wrapper">
+    <div class="section large-section">
+      <div class="big-text-block">
         <h2>
-          Ob in unseren Praxisräumlichkeiten oder bei Ihnen zu Hause: Wir bieten
-          Ihnen stets das gesamte Spektrum schulmedizinsicher Diagnostik und
-          Therapie an.
+          Wir bieten Ihnen stets das gesamte Spektrum schulmedizinsicher
+          Diagnostik und Therapie an.
         </h2>
-        <p class="grid--card--text">
-          Als etablierte Praxis sind wir stolz auf unsere hervorragende
-          Vernetzung mit Fachärzten und Kliniken vor Ort und können Sie im
-          Bedarfsfall auch direkt an die geeigneten Stellen vermitteln. Folgende
-          Leistungen bieten wir im Rahmen der gesetzlichen Regelversorgung an:
+        <p>
+          Ob in unseren Praxisräumlichkeiten oder bei Ihnen zu Hause: Als
+          etablierte Praxis sind wir stolz auf unsere hervorragende Vernetzung
+          mit Fachärzten und Kliniken vor Ort und können Sie im Bedarfsfall auch
+          direkt an die geeigneten Stellen vermitteln. Folgende Leistungen
+          bieten wir im Rahmen der gesetzlichen Regelversorgung an:
         </p>
         <ul class="list-exclusive">
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Jugendarbeitsschutzuntersuchung; Check up J1 und J2</div>
+          <li>Jugendarbeitsschutzuntersuchung</li>
+          <li>Check up Untersuchungen ab 35. Lebensjahr</li>
+          <li>Hautkrebsscreening</li>
+          <li>Prostatakarzinomvorsorge beim Mann ab dem 45. Lebensjahr</li>
+          <li>Haus- und Pflegeheimbesuche</li>
+          <li>DMP-Versorgung</li>
+          <li>
+            Geriatrische Basisversorgung für Patienten ab dem 70. Lebensjahr
           </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Check up Untersuchungen ab 35. Lebensjahr</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Hautkrebsscreening</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Prostatakarzinomvorsorge beim Mann ab dem 45. Lebensjahr</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Haus- und Pflegeheimbesuche</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>
-              DMP-Versorgung für Patienten/-innen mit koronarer
-              Herzerkrankung/Herzinsuffizienz, Diabetes mellitus Typ II, Asthma
-              bronchiale/COPD
-            </div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>
-              Geriatrische Basisversorgung für Patienten ab dem 70. Lebensjahr
-            </div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Palliative Basisversorgung</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Kleinchirurgische Eingriffe</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Labordiagnostik täglich zwischen 8:00 und 10:00 Uhr</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Lungenfunktionsanalyse mittels Spirometrie</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>12 Kanal Ruhe EKG</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Langzeit-EKG mit tagesgleicher Auswertung</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>
-              Belastung-EKG mittels Elektrokardiographie geführter
-              Fahrradergometrie
-            </div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Langzeit-Blutdruckuntersuchung</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Sonographie des Abdomen</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Sonographie der Schilddrüse</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>ABI-Messung*</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Duplexuntersuchung der Gefäße*</div>
-          </li>
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Echokardiographie*</div>
-          </li>
-
-          <li class="card-list--item grid--card--text--exclusive">
-            <div><img src="./assets/checkbox.svg" alt="" /></div>
-            <div>Untersuchung zur Verlängerung der Fahrerlaubnis Klasse C</div>
-          </li>
+          <li>Palliative Basisversorgung</li>
+          <li>Kleinchirurgische Eingriffe</li>
+          <li>Labordiagnostik täglich zwischen 8:00 und 10:00 Uhr</li>
+          <li>Lungenfunktionsanalyse</li>
+          <li>Langzeit-EKG und Belstungs-EKG mit tagesgleicher Auswertung</li>
+          <li>Langzeit-Blutdruckuntersuchung</li>
+          <li>Sonographie des Abdomen und der Schilddrüse</li>
+          <li>ABI-Messung*</li>
+          <li>Duplexuntersuchung der Gefäße*</li>
+          <li>Echokardiographie*</li>
+          <li>Untersuchung zur Verlängerung der Fahrerlaubnis Klasse C</li>
         </ul>
         <span class="info">
           * Nicht Teil der gesetzlichen Regelversorgung. Weitere Informationen
           gerne auf Nachfrage.
         </span>
       </div>
-      <div id="container-sprechzeiten--exclusive">
-        <div class="container-sprechzeiten--grid">
-          <div class="grid--flex">
-            <h3 class="heading-icon--left">
-              <span class="icon--left"
-                ><img src="./assets/map.svg" alt=""
-              /></span>
-              Kontakt
-            </h3>
-            <p class="grid--card--text">
-              Hausarztpraxis Farchant
-              <br />
-              Partnachstraße 2
-              <br />
-              82490 Farchant
-            </p>
-            <p class="grid--card--text">
-              <span class="grid--card--span">Telefon:</span>
-              +49 8821 6762
-              <br />
-              <span class="grid--card--span">Telefax:</span>
-              +49 8821 61768
-            </p>
-          </div>
-          <div class="grid--flex">
-            <h3 class="heading-icon--left">
-              <span class="icon--left"
-                ><img src="./assets/clock.svg" alt=""
-              /></span>
-              Sprechzeiten
-            </h3>
-            <p class="grid--card--text">
+    </div>
+    <div id="sprechzeiten" class="hp-action-wrap white">
+      <div class="action-box">
+        <div class="content-grid">
+          <div id="sprechzeiten-uebersicht">
+            <h3 class="heading-bar desktop-show">Sprechzeiten</h3>
+            <p class="paragraph muted">
               Um lange Wartezeiten zu vermeiden, bitten wir Sie um
               Terminvereinbarung
             </p>
@@ -215,124 +118,159 @@
               </a>
             </div>
           </div>
-          <div class="heading-column">
-            <ul class="list">
-              <li class="time-list">
-                <div class="day-wrap">
-                  <div class="day-highlight">Montag</div>
-                </div>
-                <div class="daytime-holder">
-                  <div>08.00 - 12.00</div>
-                  <div>|</div>
-                  <div>15.00 - 18.00</div>
-                </div>
-              </li>
-              <li class="time-list">
-                <div class="day-wrap">
-                  <div class="day-highlight">Dienstag</div>
-                </div>
-                <div class="daytime-holder">
-                  <div>08.00 - 12.00</div>
-                  <div>|</div>
-                  <div>15.00 - 18.00</div>
-                </div>
-              </li>
-              <li class="time-list">
-                <div class="day-wrap">
-                  <div class="day-highlight">Mittwoch</div>
-                </div>
-                <div class="daytime-holder">
-                  <div>08.00 - 12.00</div>
-                </div>
-              </li>
-              <li class="time-list">
-                <div class="day-wrap">
-                  <div class="day-highlight">Donnerstag</div>
-                </div>
-                <div class="daytime-holder">
-                  <div>08.00 - 12.00</div>
-                  <div>|</div>
-                  <div>15.00 - 18.00</div>
-                </div>
-              </li>
-              <li class="time-list">
-                <div class="day-wrap">
-                  <div class="day-highlight">Freitag</div>
-                </div>
-                <div class="daytime-holder">
-                  <div>08.00 - 14.00</div>
-                </div>
-              </li>
-            </ul>
+          <div id="sprechzeiten-tabelle">
+            <div class="info-box-hl mobile-show">
+              <h3 class="heading-bar">Sprechzeiten</h3>
+            </div>
+            <div class="time-list-wrapper">
+              <ul class="list">
+                <li class="time-list">
+                  <div class="day-wrap">
+                    <div class="day-highlight">Montag</div>
+                  </div>
+                  <div class="daytime-holder">
+                    <div>08.00 - 12.00</div>
+                    <div>|</div>
+                    <div>15.00 - 18.00</div>
+                  </div>
+                </li>
+                <li class="time-list">
+                  <div class="day-wrap">
+                    <div class="day-highlight">Dienstag</div>
+                  </div>
+                  <div class="daytime-holder">
+                    <div>08.00 - 12.00</div>
+                    <div>|</div>
+                    <div>15.00 - 18.00</div>
+                  </div>
+                </li>
+                <li class="time-list">
+                  <div class="day-wrap">
+                    <div class="day-highlight">Mittwoch</div>
+                  </div>
+                  <div class="daytime-holder">
+                    <div>08.00 - 12.00</div>
+                  </div>
+                </li>
+                <li class="time-list">
+                  <div class="day-wrap">
+                    <div class="day-highlight">Donnerstag</div>
+                  </div>
+                  <div class="daytime-holder">
+                    <div>08.00 - 12.00</div>
+                    <div>|</div>
+                    <div>15.00 - 18.00</div>
+                  </div>
+                </li>
+                <li class="time-list">
+                  <div class="day-wrap">
+                    <div class="day-highlight">Freitag</div>
+                  </div>
+                  <div class="daytime-holder">
+                    <div>08.00 - 14.00</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="sprechzeiten-kontakt">
+            <h3 class="heading-bar">Kontakt</h3>
+            <p class="paragraph muted">
+              Hausarztpraxis Farchant
+              <br />
+              Partnachstraße 2
+              <br />
+              82490 Farchant
+            </p>
+            <p class="paragraph muted">
+              <span class="grid--card--span">Telefon:</span>
+              +49 8821 6762
+              <br />
+              <span class="grid--card--span">Telefax:</span>
+              +49 8821 61768
+            </p>
           </div>
         </div>
       </div>
-      <div class="carousel">
-        <img
-          src="./assets/praxis_bearbeitet16 (1 von 1).jpg"
-          alt=""
-          class="testpic"
-        />
-        <img src="./assets/test4.jpg" alt="" class="testpic" />
-        <img
-          src="./assets/praxis_Innen_bearbeitet15 (1 von 1).jpg"
-          alt=""
-          class="testpic"
-        />
-
-        <img src="./assets/test10.jpg" alt="" class="testpic" />
-      </div>
-      <footer>
-        <div class="container-footer">
-          <div class="footer-description">
-            <h3 class="heading-icon--left">
+    </div>
+    <div class="section photo-section">
+      <img
+        src="./assets/praxis_bearbeitet16 (1 von 1).jpg"
+        alt=""
+        loading="lazy"
+        class="feed-photo"
+      />
+      <img src="./assets/test4.jpg" alt="" loading="lazy" class="feed-photo" />
+      <img
+        src="./assets/praxis_Innen_bearbeitet15 (1 von 1).jpg"
+        alt=""
+        loading="lazy"
+        class="feed-photo"
+      />
+      <img src="./assets/test10.jpg" alt="" loading="lazy" class="feed-photo" />
+    </div>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <div class="footer-flex-container">
+          <div class="footer-flex-container-left">
+            <h3 class="footer-hl">
               <img src="./assets/logo-grey.svg" alt="" class="icon--left" />
               Hausarztpraxis Farchant
             </h3>
-            Ihre kompetenten Hauärzte Dr. med. Irene Wallner, Dr. med. Florian
-            Gesele und Dr. med. univ. Lukas Wallner direkt im Herzen von
-            Farchant. Zusätzlich zum allgemeinmedizinischen Angebot ist die
-            Praxis spezialisiert auf die Bereiche: Akupunktur, Reisemedizin und
-            GMZ.
+            <p>
+              Ihre kompetenten Hauärzte Dr. med. Irene Wallner, Dr. med. Florian
+              Gesele und Dr. med. univ. Lukas Wallner direkt im Herzen von
+              Farchant. Zusätzlich zum allgemeinmedizinischen Angebot ist die
+              Praxis spezialisiert auf die Bereiche: Akupunktur, Reisemedizin
+              und GMZ.
+            </p>
           </div>
-          <div class="footer-list">
-            <div class="footer-list-column">
-              <div class="footer-list-heading">
-                <h3 class="heading-icon--left">Leistungen</h3>
-              </div>
-              <div>
-                <a href="" class="footer-list-item">Allgemeinmedizin</a>
-                <a href="" class="footer-list-item">Akupunktur</a>
-                <a href="" class="footer-list-item">Reisemedizin</a>
-                <a href="" class="footer-list-item">GMZ</a>
-              </div>
-            </div>
-            <div class="footer-list-column">
-              <div class="footer-list-heading">
-                <h3 class="heading-icon--left">Praxis</h3>
-              </div>
-              <div>
-                <a href="" class="footer-list-item">Über uns</a>
-                <a href="" class="footer-list-item">Anfahrt</a>
+          <div class="footer-flex-container-right">
+            <div class="col-2 footer-col">
+              <h3 class="footer-heading">Leistungen</h3>
+              <div class="row-2">
+                <div class="col-2">
+                  <ul class="list-unstyled">
+                    <li><a href="" class="footer-link">Allgemeinmedizin</a></li>
+                    <li><a href="" class="footer-link">Reisemedizin</a></li>
+                    <li><a href="" class="footer-link">Akupunktur</a></li>
+                    <li><a href="" class="footer-link">GMZ</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="footer-list-column">
-              <div class="footer-list-heading">
-                <h3 class="heading-icon--left">Allgemein</h3>
+            <div class="col-2 footer-col">
+              <h3 class="footer-heading">Praxis</h3>
+              <div class="row-2">
+                <div class="col-2">
+                  <ul class="list-unstyled">
+                    <li><a href="" class="footer-link">Über uns</a></li>
+                    <li><a href="" class="footer-link">Anfahrt</a></li>
+                  </ul>
+                </div>
               </div>
-              <div>
-                <a href="" class="footer-list-item">Kontakt</a>
-                <a href="" class="footer-list-item">Datenschutz</a>
-                <a href="" class="footer-list-item">Impressum</a>
+            </div>
+            <div class="col-2">
+              <h3 class="footer-heading">Allgemein</h3>
+              <div class="row-2">
+                <div class="col-2">
+                  <ul class="list-unstyled">
+                    <li><a href="" class="footer-link">Kontakt</a></li>
+                    <li><a href="" class="footer-link">Datenschutz</a></li>
+                    <li><a href="" class="footer-link">Impressum</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="copy">
+      </div>
+      <div class="copy">
+        <p>
           &copy; 2022 Allgemeinärzte Dr. med. Irene Wallner, Dr. med. Florian
           Gesele und Dr. med. univ. Lukas Wallner
-        </div>
-      </footer>
-    </div>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
