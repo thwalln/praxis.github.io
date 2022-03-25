@@ -369,6 +369,10 @@ img {
   line-height: 1.5;
 }
 
+.info-box-hl.mobile-show {
+  display: none;
+}
+
 /**/
 /**/
 /**/
@@ -495,6 +499,23 @@ img {
     flex-direction: row;
     font-size: 15px;
     justify-content: space-between;
+  }
+
+  .hp-action-wrap.white {
+    padding-top: 60px;
+  }
+
+  .info-box-hl.mobile-show {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .desktop-show {
+    display: none;
+  }
+
+  #sprechzeiten-kontakt {
+    margin-top: 20px;
   }
 }
 
