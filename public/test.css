@@ -101,6 +101,45 @@ img {
   max-width: 100%;
 }
 
+.section.large-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f7f8fa;
+}
+
+.big-text-block {
+  max-width: 720px;
+  margin: auto;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
 @media screen and (max-width: 767px) {
   .row {
     flex-direction: column;
@@ -112,6 +151,11 @@ img {
 
   .div-block-8 {
     height: 320px;
+  }
+
+  .big-text-block {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
@@ -133,5 +177,10 @@ img {
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 32px;
+  }
+
+  .big-text-block {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
