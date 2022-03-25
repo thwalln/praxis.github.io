@@ -572,7 +572,7 @@ img {
   }
 
   .daytime-holder {
-    min-width: 260px;
+    max-width: 260px;
     flex: 0 auto;
     gap: 8px;
   }
