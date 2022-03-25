@@ -37,6 +37,12 @@ h3 {
   font-weight: 500;
 }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 16px;
@@ -44,6 +50,12 @@ p {
   font-size: 18px;
   line-height: 1.7em;
   font-weight: 300;
+}
+
+a {
+  background-color: transparent;
+  color: #333;
+  text-decoration: underline;
 }
 
 .paragraph-2 {
@@ -274,6 +286,25 @@ img {
   margin-right: 64px;
 }
 
+.row-2 {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 .copy {
   display: flex;
   padding-top: 32px;
@@ -286,6 +317,24 @@ img {
 .copy p {
   font-size: 0.75rem;
   margin: 0;
+}
+
+.footer-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.footer-hl {
+  align-self: baseline;
+  align-items: center;
+  display: flex;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /**/
