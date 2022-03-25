@@ -298,6 +298,10 @@ header {
   margin-bottom: 8px;
   padding-bottom: 8px;
 }
+.day-highlight {
+  min-width: 130px;
+  font-weight: 500;
+}
 
 .day-wrap {
   color: #333333;
@@ -309,6 +313,10 @@ header {
   display: flex;
   flex: 1;
   justify-content: space-between;
+}
+
+.daytime-holder div {
+  font-weight: 300;
 }
 
 /* END SPRECHZEITEN CONTAINER */

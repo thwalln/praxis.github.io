@@ -58,6 +58,27 @@ a {
   text-decoration: underline;
 }
 
+.heading-bar {
+  margin-top: 0;
+  /* margin-bottom: 0; */
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+  padding-right: 30px;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.paragraph.muted {
+  opacity: 1;
+  font-size: 16px;
+}
+
 .paragraph-2 {
   color: #333;
   font-size: 16px;
@@ -417,7 +438,7 @@ img {
   }
 
   .footer-wrapper {
-    max-width: 90vw;
+    /* max-width: 90vw; */
     margin: auto;
   }
 
@@ -427,6 +448,53 @@ img {
 
   .footer-flex-container-right {
     width: 100%;
+  }
+
+  .content-grid {
+    max-width: none;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  #sprechzeiten-uebersicht {
+    grid-column-end: 13;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-row-start: 2;
+  }
+
+  #sprechzeiten-tabelle {
+    grid-column-end: 13;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+  }
+
+  #sprechzeiten-kontakt {
+    grid-column-end: 13;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-row-start: 3;
+  }
+
+  .daytime-holder {
+    min-width: 260px;
+    flex: 0 auto;
+    gap: 8px;
+  }
+
+  .time-list {
+    display: flex;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
   }
 }
 
