@@ -562,6 +562,8 @@ img {
     grid-column-start: 1;
     grid-row-end: 2;
     grid-row-start: 1;
+    display: block;
+    margin-bottom: 20px;
   }
 
   #sprechzeiten-kontakt {
@@ -574,7 +576,7 @@ img {
   .daytime-holder {
     max-width: 260px;
     flex: 0 auto;
-    gap: 8px;
+    width: 100%;
   }
 
   .time-list {
@@ -583,11 +585,11 @@ img {
     padding-bottom: 12px;
     flex-direction: row;
     font-size: 15px;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .hp-action-wrap.white {
-    padding-top: 60px;
+    padding: 60px 0 20px 0;
   }
 
   .info-box-hl.mobile-show {
@@ -601,6 +603,10 @@ img {
 
   #sprechzeiten-kontakt {
     margin-top: 20px;
+  }
+
+  .day-highlight {
+    min-width: 200px;
   }
 }
 
@@ -682,10 +688,28 @@ img {
 
   .time-list {
     font-size: 15px;
-    line-height: 1.6em;
+    line-height: 1.6rem;
   }
 
   .day-highlight {
     min-width: 0;
+  }
+
+  #sprechzeiten-tabelle {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+
+  .daytime-holder {
+    max-width: 240px;
+    justify-content: space-between;
+  }
+
+  .content-grid {
+    padding: 0 20px;
+  }
+
+  .hp-action-wrap.white {
+    padding: 50px 0 40px 0;
   }
 }
