@@ -491,6 +491,14 @@ img {
     flex-direction: column;
   }
 
+  header {
+    height: 65px;
+  }
+
+  .nav-container {
+    height: 65px;
+  }
+
   .col {
     margin-bottom: 15px;
   }
