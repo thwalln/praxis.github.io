@@ -160,7 +160,7 @@ header {
 
 .hero-img-leistung {
   width: 100%;
-  min-height: 540px;
+  max-height: 540px;
   object-fit: cover;
 }
 
@@ -188,10 +188,6 @@ header {
   background-color: #f7f8fa;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.container.text-block {
-  max-width: 720px;
 }
 
 .container.sprechzeiten {
@@ -355,6 +351,12 @@ td {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .container.text-block {
+    max-width: 720px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .col {
     margin-bottom: 0;
@@ -376,6 +378,7 @@ td {
   .footer {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 20px;
   }
 
   .footer-flex-container {
@@ -395,7 +398,7 @@ td {
   }
 
   .hero-img-leistung {
-    min-height: 320px;
+    max-height: 320px;
   }
 
   .margin-bottom {
