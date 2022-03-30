@@ -155,11 +155,6 @@ header {
   width: 100%;
 }
 
-#logo {
-  height: 75px;
-  padding: 8px 0;
-}
-
 .navigation-container,
 .navigation-item,
 .btn-header {
