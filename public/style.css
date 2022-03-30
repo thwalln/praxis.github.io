@@ -415,6 +415,7 @@ td {
   align-self: baseline;
   align-items: center;
   display: flex;
+  gap: 8px;
   opacity: 1;
   margin-top: 0;
   margin-bottom: 20px;
