@@ -13,6 +13,10 @@ body {
   line-height: 20px;
 }
 
+.body-2 {
+  background-color: #fff;
+}
+
 /* GENERAL RULES */
 
 h1 {
@@ -140,32 +144,27 @@ header {
 
 /* NEW BOOTSTRP RULES */
 
-.footer-col-left {
-  max-width: 360px;
-}
-
-.footer-col-right {
-  max-width: 400px;
-}
-
-.container.text-block {
-  max-width: 720px;
-}
-
-.white-background {
+.first-section {
   padding-top: 180px;
   padding-bottom: 0;
   position: relative;
 }
 
-.grey-background {
-  width: 100%;
-  background-color: #f7f8fa;
-  padding-top: 120px;
-  padding-bottom: 120px;
+.text-uppercase {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.7em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
-.background-element {
+.hero-img-leistung {
+  width: 100%;
+  min-height: 540px;
+  object-fit: cover;
+}
+
+.divider {
   position: absolute;
   left: 0;
   top: auto;
@@ -176,46 +175,23 @@ header {
   background-color: #2b67cc;
 }
 
-.background-element.size-small {
+.divider {
   height: 80px;
 }
 
-.background-element.size-small.grey {
+.divider.grey {
   background-color: #f7f8fa;
 }
 
-.hero-img-leistung {
+.grey-background {
   width: 100%;
-  min-height: 540px;
-  object-fit: cover;
+  background-color: #f7f8fa;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.container.footer {
-  padding-top: 80px;
-  padding-bottom: 48px;
-}
-
-.footer-list-item {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  text-decoration: none;
-  color: #333;
-  list-style-type: none;
-}
-
-.footer-list-item:hover {
-  text-decoration: underline;
-  color: #333;
-}
-
-.row.footer {
-  justify-content: space-between;
-}
-
-.row.small-screen {
-  display: none;
+.container.text-block {
+  max-width: 720px;
 }
 
 .container.sprechzeiten {
@@ -223,24 +199,12 @@ header {
   padding-bottom: 80px;
 }
 
-td {
-  font-family: 'Plus Jakarta', sans-serif;
-  font-weight: 300;
+.row.small-screen {
+  display: none;
 }
 
-.day-highlight {
-  font-weight: 500;
-}
-
-.table-border {
-  border-bottom: 1px solid #e1e5e6;
-}
-
-/* END NEW BOOTSTRAP RULES */
-
-.heading-bar {
+.col-heading {
   margin-top: 0;
-  /* margin-bottom: 0; */
   opacity: 1;
   font-size: 20px;
   font-weight: 500;
@@ -259,98 +223,17 @@ td {
   font-size: 16px;
 }
 
-.text-uppercase {
-  color: #333;
-  font-size: 16px;
-  line-height: 1.7em;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+.table-border {
+  border-bottom: 1px solid #e1e5e6;
 }
 
-.body-2 {
-  background-color: #fff;
-}
-
-.section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  position: relative;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-img {
-  border: 0;
-  vertical-align: middle;
-  display: inline-block;
-  max-width: 100%;
-}
-
-.feed-photo {
-  width: 25%;
-}
-
-.section.large-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #f7f8fa;
-}
-
-.big-text-block li {
-  margin-bottom: 10px;
-  padding-left: 35px;
-  background-image: url('./assets/checkbox.svg');
-  background-position: 0 5px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  font-size: 18px;
-  line-height: 1.7em;
+td {
+  font-family: 'Plus Jakarta', sans-serif;
   font-weight: 300;
-  list-style-type: none;
 }
 
-.action-box {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  color: #333;
-}
-
-.content-grid {
-  display: grid;
-  margin: auto;
-  max-width: 1200px;
-  padding: 0 40px;
-  grid-auto-flow: row;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto;
-  width: 100%;
-}
-
-#sprechzeiten-uebersicht {
-  grid-column-end: 9;
-  grid-column-start: 5;
-  grid-row-end: 2;
-  grid-row-start: 1;
-}
-
-#sprechzeiten-tabelle {
-  grid-column-end: 13;
-  grid-column-start: 9;
-  grid-row-end: 2;
-  grid-row-start: 1;
-}
-
-#sprechzeiten-kontakt {
-  grid-column-end: 5;
-  grid-column-start: 1;
-  grid-row-end: 2;
-  grid-row-start: 1;
+.day-highlight {
+  font-weight: 500;
 }
 
 .container-photo-section {
@@ -361,6 +244,10 @@ img {
   align-items: flex-start;
 }
 
+.container-photo {
+  width: 25%;
+}
+
 .footer {
   padding-bottom: 32px;
   padding-right: 0;
@@ -368,13 +255,40 @@ img {
   text-align: left;
 }
 
-.footer p {
+.container.footer {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+
+.row.footer {
+  justify-content: space-between;
+}
+
+.footer-col-left {
+  max-width: 360px;
+}
+
+.footer-col-left p {
   font-size: 14px;
 }
 
-.list-unstyled {
-  list-style: none;
-  padding-left: 0;
+.footer-col-right {
+  max-width: 400px;
+}
+
+.footer-list-item {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #333;
+  list-style-type: none;
+}
+
+.footer-list-item:hover {
+  text-decoration: underline;
+  color: #333;
 }
 
 .copy {
@@ -400,6 +314,11 @@ img {
   line-height: 1.5;
 }
 
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
 .footer-hl {
   align-self: baseline;
   align-items: center;
@@ -411,10 +330,6 @@ img {
   line-height: 1.5;
 }
 
-.info-box-hl.mobile-show {
-  display: none;
-}
-
 .hamburger {
   display: none;
   position: relative;
@@ -422,10 +337,6 @@ img {
   padding: 8px;
   cursor: pointer;
 }
-
-/**/
-/**/
-/**/
 
 @media screen and (max-width: 576) {
 }
@@ -483,14 +394,6 @@ img {
     padding-left: 40px;
   }
 
-  .section.photo-section {
-    flex-wrap: wrap;
-  }
-
-  .feed-photo {
-    width: 50%;
-  }
-
   .footer-flex-container {
     flex-direction: column;
     gap: 16px;
@@ -508,11 +411,6 @@ img {
 
   .footer-flex-container-right {
     width: 100%;
-  }
-
-  .info-box-hl.mobile-show {
-    display: block;
-    margin-bottom: 20px;
   }
 
   .desktop-show {
@@ -581,10 +479,6 @@ img {
     margin-bottom: 8px;
   }
 
-  .section.first-section {
-    padding-top: 100px;
-  }
-
   h4,
   p {
     font-size: 16px;
@@ -598,11 +492,38 @@ img {
   .day-highlight {
     min-width: 0;
   }
-
-  #sprechzeiten-tabelle {
-    margin-bottom: 0;
-    padding-bottom: 10px;
-  }
 }
 
-/* GET RID OF BELOW RULES DUE TO BOOTSTRAP IMPLEMENTATION */
+/* KÖNNEN VERMUTLICH RAUS UNTEN */
+
+/* .section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+} */
+
+/* img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+} */
+
+/* .section.large-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f7f8fa;
+} */
+
+/* .big-text-block li {
+  margin-bottom: 10px;
+  padding-left: 35px;
+  background-image: url('./assets/checkbox.svg');
+  background-position: 0 5px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 300;
+  list-style-type: none;
+} */
