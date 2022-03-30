@@ -10,7 +10,21 @@
 }
 
 .container.text-block {
-  max-width: 720px;
+  max-width: 85vw;
+  padding: 0;
+}
+
+.white-background {
+  background-color: #fff;
+  padding-top: 180px;
+  padding-bottom: 0;
+}
+
+.grey-background {
+  width: 100%;
+  background-color: #f7f8fa;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* END NEW BOOTSTRAP RULES */
@@ -176,13 +190,11 @@ a {
   position: relative;
 }
 
-.section.first-section {
-  padding-top: 180px;
+/* .section.first-section {
 }
 
 .section.first-section.no-padding-bottom {
-  padding-bottom: 0;
-}
+} */
 
 .div-block-8 {
   height: 540px;
@@ -469,6 +481,9 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+  .container.text-block {
+    max-width: 720px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
