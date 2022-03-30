@@ -9,8 +9,12 @@
   max-width: 360px;
 }
 
+.footer-col-right {
+  max-width: 400px;
+}
+
 .container.text-block {
-  padding: 0;
+  max-width: 720px;
 }
 
 .white-background {
@@ -49,6 +53,43 @@
   width: 100%;
   min-height: 540px;
   object-fit: cover;
+}
+
+.hp-action-wrap {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f7f8fa;
+}
+
+.hp-action-wrap.white {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  color: #333;
+}
+
+.container.footer {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+
+.footer-list-item {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #333;
+  list-style-type: none;
+}
+
+.footer-list-item:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.row.footer {
+  justify-content: space-between;
 }
 
 /* END NEW BOOTSTRAP RULES */
@@ -248,18 +289,6 @@ img {
   list-style-type: none;
 }
 
-.hp-action-wrap {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #f7f8fa;
-}
-
-.hp-action-wrap.white {
-  padding-top: 90px;
-  background-color: #fff;
-  color: #333;
-}
-
 .action-box {
   width: 100%;
   max-width: 1200px;
@@ -311,7 +340,6 @@ img {
 }
 
 .footer {
-  padding-top: 60px;
   padding-bottom: 32px;
   padding-right: 0;
   padding-left: 0;
@@ -325,18 +353,6 @@ img {
 .list-unstyled {
   list-style: none;
   padding-left: 0;
-}
-
-.footer-link {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  text-decoration: underline;
 }
 
 .copy {
@@ -703,18 +719,6 @@ img {
   margin-right: -15px;
   margin-left: -15px;
   width: auto;
-}
-
-.col-2 {
-  position: relative;
-  width: 100%;
-  margin-bottom: 0;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.col-2.footer-col {
-  margin-right: 64px;
 }
 
 .row-2 {
