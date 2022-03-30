@@ -13,6 +13,55 @@ body {
   line-height: 20px;
 }
 
+/* GENERAL RULES */
+
+h1 {
+  margin: 0 0 24px;
+  color: #333;
+  font-size: 56px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: 'Plus Jakarta', sans-serif;
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 300;
+}
+
+a {
+  background-color: transparent;
+  color: #333;
+  text-decoration: underline;
+}
+
+/* END GENERAL RULES */
+
 /* HEADER */
 
 header {
@@ -183,51 +232,6 @@ td {
 }
 
 /* END NEW BOOTSTRAP RULES */
-
-h1 {
-  margin: 0 0 24px;
-  color: #333;
-  font-size: 56px;
-  line-height: 1.2em;
-  font-weight: 500;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
-  font-size: 36px;
-  line-height: 46px;
-  font-weight: 500;
-}
-
-h3 {
-  margin-top: 0;
-  margin-bottom: 16px;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 500;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding-left: 40px;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 16px;
-  font-family: 'Plus Jakarta', sans-serif;
-  font-size: 18px;
-  line-height: 1.7em;
-  font-weight: 300;
-}
-
-a {
-  background-color: transparent;
-  color: #333;
-  text-decoration: underline;
-}
 
 .heading-bar {
   margin-top: 0;
