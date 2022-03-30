@@ -160,7 +160,7 @@ header {
 /* END HEADER */
 
 .hero {
-  background-image: url('./assets/test2.jpg');
+  background-image: url('./assets/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
