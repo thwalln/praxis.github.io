@@ -144,6 +144,14 @@ header {
   padding-left: 20px;
 }
 
+.hamburger {
+  display: none;
+  position: relative;
+  z-index: 5;
+  padding: 8px;
+  cursor: pointer;
+}
+
 /* END HEADER */
 
 /* NEW BOOTSTRP RULES */
@@ -331,12 +339,26 @@ td {
   line-height: 1.5;
 }
 
-.hamburger {
-  display: none;
-  position: relative;
-  z-index: 5;
-  padding: 8px;
-  cursor: pointer;
+.list-exclusive {
+  padding-left: 8px;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.list-exclusive li {
+  background: url('./assets/checkbox-svg.svg') left center no-repeat;
+  padding-left: 32px;
+  line-height: 2rem;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.info {
+  line-height: 2rem;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {
@@ -430,6 +452,7 @@ td {
   .row.small-screen {
     display: block;
   }
+
   .row.large-screen {
     display: none;
   }
