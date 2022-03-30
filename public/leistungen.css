@@ -55,19 +55,6 @@
   object-fit: cover;
 }
 
-.hp-action-wrap {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #f7f8fa;
-}
-
-.hp-action-wrap.white {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #fff;
-  color: #333;
-}
-
 .container.footer {
   padding-top: 80px;
   padding-bottom: 48px;
@@ -90,6 +77,15 @@
 
 .row.footer {
   justify-content: space-between;
+}
+
+.row.small-screen {
+  display: none;
+}
+
+.container.sprechzeiten {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 /* END NEW BOOTSTRAP RULES */
@@ -411,7 +407,13 @@ img {
 @media screen and (min-width: 577px) {
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  .row.small-screen {
+    display: block;
+  }
+  .row.large-screen {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -535,10 +537,6 @@ img {
     justify-content: flex-start;
   }
 
-  .hp-action-wrap.white {
-    padding: 60px 0 20px 0;
-  }
-
   .info-box-hl.mobile-show {
     display: block;
     margin-bottom: 20px;
@@ -654,10 +652,6 @@ img {
 
   .content-grid {
     padding: 0 20px;
-  }
-
-  .hp-action-wrap.white {
-    padding: 50px 0 40px 0;
   }
 }
 
