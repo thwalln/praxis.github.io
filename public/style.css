@@ -429,7 +429,7 @@ td {
 }
 
 .list-exclusive li {
-  background: url('./assets/checkbox-svg.svg') left center no-repeat;
+  background: url('./assets/checkbox.svg') left center no-repeat;
   padding-left: 32px;
   line-height: 2rem;
   opacity: 1;
