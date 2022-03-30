@@ -251,6 +251,7 @@ td {
 
 .footer {
   padding-bottom: 32px;
+  padding-top: 40px;
   padding-right: 0;
   padding-left: 0;
   text-align: left;
@@ -339,75 +340,6 @@ td {
   cursor: pointer;
 }
 
-@media screen and (max-width: 576) {
-}
-
-@media screen and (min-width: 577px) {
-}
-
-@media screen and (max-width: 768px) {
-  .first-section {
-    padding-top: 120px;
-  }
-
-  .grey-background,
-  .container.sprechzeiten {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .col {
-    margin-bottom: 0;
-  }
-
-  .margin-bottom {
-    margin-bottom: 40px;
-  }
-
-  .no-margin-bottom {
-    margin-bottom: 0;
-  }
-
-  .row.small-screen {
-    display: block;
-  }
-  .row.large-screen {
-    display: none;
-  }
-
-  .paragraph.muted {
-    max-width: 100%;
-    padding-right: 0;
-    hyphens: auto;
-  }
-
-  .container.footer {
-    padding-top: 40px;
-    padding-bottom: 22px;
-  }
-
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .hero-img-leistung {
-    min-height: 320px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .hero-img-leistung {
-    min-height: 320px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1400px) {
-}
-
 @media screen and (max-width: 991px) {
   .nav-mobile-wrapper {
     display: none;
@@ -424,29 +356,26 @@ td {
 }
 
 @media screen and (max-width: 767px) {
-  .row {
-    flex-direction: column;
-  }
-
-  header {
-    height: 65px;
-  }
-
-  .nav-container {
-    height: 65px;
-  }
-
   .col {
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 
-  .section.large-section {
-    padding: 40px 0 20px 0;
+  .container.footer {
+    padding-top: 40px;
+    padding-bottom: 22px;
   }
 
-  .big-text-block {
-    padding-right: 40px;
-    padding-left: 40px;
+  .copy {
+    font-size: 12px;
+  }
+
+  .first-section {
+    padding-top: 100px;
+  }
+
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .footer-flex-container {
@@ -455,71 +384,55 @@ td {
     margin-bottom: 32px;
   }
 
-  .footer-wrapper {
-    /* max-width: 90vw; */
-    margin: auto;
+  .grey-background,
+  .container.sprechzeiten {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
-  .footer-link {
-    margin-bottom: 16px;
+  header {
+    height: 65px;
   }
 
-  .footer-flex-container-right {
-    width: 100%;
+  .hero-img-leistung {
+    min-height: 320px;
   }
 
-  .desktop-show {
+  .margin-bottom {
+    margin-bottom: 40px;
+  }
+
+  .nav-container {
+    height: 65px;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0;
+  }
+
+  .paragraph.muted {
+    max-width: 100%;
+    padding-right: 0;
+    hyphens: auto;
+  }
+
+  .row.small-screen {
+    display: block;
+  }
+  .row.large-screen {
     display: none;
   }
 
-  #sprechzeiten-kontakt {
-    margin-top: 20px;
+  .row {
+    flex-direction: column;
   }
 
-  .day-highlight {
-    min-width: 200px;
+  .section.large-section {
+    padding: 40px 0 20px 0;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .section {
-    padding-top: 100px;
-  }
-
-  .section.large-section {
-    padding: 20px 0 20px 0;
-  }
-
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .col {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 0;
-  }
-
-  .big-text-block {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .footer-flex-container-right {
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .footer-flex-container {
-    gap: 0;
-  }
-
-  .copy {
-    max-width: 90vw;
-    margin: auto;
-  }
-
   h1 {
     margin-bottom: 24px;
     font-size: 32px;
@@ -530,26 +443,36 @@ td {
     font-size: 28px;
   }
 
-  .paragraph-2 {
-    margin-bottom: 8px;
-  }
-
   h4,
   p {
     font-size: 16px;
+  }
+
+  .copy {
+    max-width: 90vw;
+    margin: auto;
+  }
+
+  .day-highlight {
+    min-width: 0;
+  }
+
+  .footer {
+    padding-top: 20px;
   }
 
   .nav-container {
     padding-right: 24px;
     padding-left: 24px;
   }
-
-  .day-highlight {
-    min-width: 0;
-  }
 }
 
 /* KÖNNEN VERMUTLICH RAUS UNTEN */
+
+/* .big-text-block {
+    padding-right: 20px;
+    padding-left: 20px;
+  } */
 
 /* .section {
   padding-top: 100px;
@@ -569,6 +492,11 @@ td {
   padding-bottom: 120px;
   background-color: #f7f8fa;
 } */
+
+/* .big-text-block {
+    padding-right: 40px;
+    padding-left: 40px;
+  } */
 
 /* .big-text-block li {
   margin-bottom: 10px;
