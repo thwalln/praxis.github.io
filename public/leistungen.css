@@ -3,14 +3,14 @@
   box-sizing: border-box;
 }
 
-/* NEW BOOTSTRA? RULES */
+/* NEW BOOTSTRP RULES */
 
 .container {
   max-width: 1200px;
 }
 
 .container.text-block {
-  max-width: 85vw;
+  max-width: 90vw;
   padding: 0;
 }
 
@@ -189,12 +189,6 @@ a {
   padding-bottom: 100px;
   position: relative;
 }
-
-/* .section.first-section {
-}
-
-.section.first-section.no-padding-bottom {
-} */
 
 .div-block-8 {
   height: 540px;
@@ -469,15 +463,13 @@ img {
 }
 
 @media screen and (min-width: 577px) {
-  .container {
+  .container,
+  .container.text-block {
     max-width: 85vw;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 85vw;
-  }
 }
 
 @media screen and (min-width: 992px) {
