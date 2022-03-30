@@ -173,33 +173,7 @@ a {
 }
 
 .container {
-  margin: auto;
   max-width: 1200px;
-  padding: 0 40px;
-  position: relative;
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  margin-right: -15px;
-  margin-left: -15px;
-  align-items: flex-start;
-}
-
-.col {
-  position: relative;
-  display: flex;
-  width: 100%;
-  padding: 0 15px;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.content-400 {
-  width: 100%;
-  max-width: 400px;
-  text-align: left;
 }
 
 .div-block-8 {
@@ -721,3 +695,35 @@ img {
     padding: 50px 0 40px 0;
   }
 }
+
+/* GET RID OF BELOW RULES DUE TO BOOTSTRAP IMPLEMENTATION */
+
+/* .container {
+  margin: auto;
+  max-width: 1200px;
+  padding: 0 40px;
+  position: relative;
+  width: 100%;
+} */
+
+/* .row {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: flex-start;
+}
+
+.col {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* .content-400 {
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+} */
