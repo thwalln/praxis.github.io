@@ -9,6 +9,10 @@
   max-width: 1200px;
 }
 
+.container.text-block {
+  max-width: 720px;
+}
+
 /* END NEW BOOTSTRAP RULES */
 
 header {
@@ -228,11 +232,6 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f7f8fa;
-}
-
-.big-text-block {
-  max-width: 720px;
-  margin: auto;
 }
 
 .big-text-block li {
@@ -744,10 +743,17 @@ img {
   padding: 0 15px;
   flex-direction: column;
   justify-content: center;
-} */
+} 
 
-/* .content-400 {
+.content-400 {
   width: 100%;
   max-width: 400px;
   text-align: left;
-} */
+} 
+
+.big-text-block {
+  max-width: 720px;
+  margin: auto;
+}
+
+*/
