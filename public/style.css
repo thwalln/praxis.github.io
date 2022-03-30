@@ -273,11 +273,6 @@ header {
   opacity: 1;
 }
 
-.grid--card--span {
-  display: inline-block;
-  min-width: 56px;
-}
-
 .list {
   font-size: 15px;
   line-height: 24px;
