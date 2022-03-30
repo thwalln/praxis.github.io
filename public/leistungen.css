@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -41,6 +41,11 @@ h3 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 500;
+}
+
+h4 {
+  color: #2f7393;
+  font-weight: 300;
 }
 
 ul {
@@ -189,10 +194,49 @@ header {
   margin: 0;
   max-width: 100%;
   background-color: #fff;
+  min-height: 600px;
+}
+
+.container-column {
+  flex-direction: column;
 }
 
 .test {
   padding: 0;
+}
+
+.section-title {
+  margin-bottom: 48px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.card-text--long {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: 100%;
+  justify-content: center;
+  line-height: 3rem;
+  margin: auto;
+  max-width: 40vw;
+  padding: 48px 0;
+}
+
+.card-text {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: 100%;
+  min-height: 600px;
+  justify-content: center;
+  line-height: 3rem;
+  margin: auto;
+  max-width: 40vw;
 }
 
 .first-section {
@@ -583,3 +627,89 @@ td {
   font-weight: 300;
   list-style-type: none;
 } */
+
+/* BUTTONS */
+
+.btn {
+  border-radius: 32px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid #2f7393;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.btn-primary-phone {
+  padding: 8px 28px 8px 42px;
+  background-image: url('./assets/phone-white.svg');
+  background-color: #2f7393;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-size: 20px;
+}
+
+.btn-primary-phone:hover {
+  background-image: url('./assets/phone-blue.svg');
+  background-color: #fff;
+  color: #2f7393;
+}
+
+.btn-secondary {
+  font-size: 15px;
+  color: #2f7393;
+  margin: auto;
+}
+
+.btn-secondary-phone {
+  padding: 6px 28px 6px 42px;
+  background-image: url('./assets/phone-blue.svg');
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-size: 20px;
+  background-color: transparent;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.btn-secondary-phone:hover {
+  background-image: url('./assets/phone-white.svg');
+  background-color: #2f7393;
+  color: #fff;
+}
+
+.btn-light {
+  background-image: url('./assets/chevron-down-white.svg');
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-size: 28px;
+  background-color: transparent;
+  padding: 8px 28px 8px 48px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-light:hover {
+  background-image: url('./assets/chevron-down-blue.svg');
+  background-color: #fff;
+  color: #2f7393;
+}
+
+.btn-plain {
+  border-radius: 32px;
+  display: flex;
+  padding: 6px 24px;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid #2f7393;
+  line-height: 1.5rem;
+}
+
+.btn-plain:hover {
+  background-color: #2f7393;
+  color: #fff;
+}
