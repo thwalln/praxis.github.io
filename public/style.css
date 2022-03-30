@@ -189,35 +189,6 @@ header {
 
 /* BEGINNING HERO CONTAINER */
 
-.container-hero {
-  background-image: url('./assets/test2.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  height: calc(100vh - 93px);
-  margin-top: 93px;
-}
-
-.container-hero--content {
-  align-items: center;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  justify-content: center;
-  line-height: 2rem;
-  margin: auto;
-  max-width: 80vw;
-  text-align: center;
-  width: 100%;
-}
-
-.container-hero--heading {
-  color: #fff;
-  font-weight: 500;
-}
-
 /* END HERO CONTAINER */
 
 /* BEGINNING SPRECHZEITEN CONTAINER */

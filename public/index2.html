@@ -10,14 +10,14 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="leistungen.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./leistungen.css" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
     <title>Hausarztpraxis Farchant</title>
   </head>
-  <body class="body-2">
+  <body>
     <header>
       <div class="nav-container">
         <!-- HIER NOCH DEN LINK HINZUFÜGEN -->
@@ -44,50 +44,22 @@
         <div class="hamburger"><img src="./assets/menu.svg" alt="" /></div>
       </div>
     </header>
-    <div class="first-section">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div>
-              <div>
-                <p class="text-uppercase">Leistung</p>
-                <h1>GMZ</h1>
-              </div>
-              <p>
-                Unsere Praxis ist Teil des Netzwerkes der GMZ-GmbH einer
-                Facharztübergreifenden Versorgungsstruktur im ambulanten Bereich
-                für Patienten der AOK Bayern.
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <img src="./assets/gmz.jpg" alt="" class="hero-img-leistung" />
-          </div>
-        </div>
-      </div>
-      <div class="divider grey"></div>
-    </div>
-    <div class="grey-background">
-      <div class="container text-block">
-        <div class="row">
-          <div class="col">
-            <h2>
-              Patienten mit Selektivvertrag haben Anspruch auf eine erweiterte
-              medizinische Vorsorge.
-            </h2>
-          </div>
-          <div class="row">
-            <div class="col">
-              <p>
-                Sie interessieren sich ob eine Einschreibung eine Alternative
-                für Sie wäre? Sprechen Sie uns an.
-              </p>
-            </div>
-          </div>
-        </div>
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="hero-h1">
+          Herzlich Willkommen in der Hausarztpraxis Farchant
+        </h1>
+        <p>
+          DIe Allgemeinmediziner Dr. med. Irene Wallner, Dr. med. Florian Gesele
+          und Dr. med. univ. Lukas Wallner sind in ihrer modernen Praxis gerne
+          für Sie und Ihre Gesundheit da. Als langjährige Ansprechpartner für
+          Ihre gesundheitlichen Fragen und Anliegen sind wir stets an Ihrer
+          Seite und bieten Ihnen individuelle Lösungen vor dem Hintergrund einer
+          ganzheitlichen Betrachtungsweise an
+        </p>
+        <a href="#container-sprechzeiten" class="btn btn-light">Sprechzeiten</a>
       </div>
     </div>
-
     <div class="container sprechzeiten">
       <div class="row large-screen">
         <div class="col">
@@ -228,32 +200,124 @@
         </div>
       </div>
     </div>
-
-    <div class="container-photo-section">
-      <img
-        src="./assets/praxis_bearbeitet16 (1 von 1).jpg"
-        alt=""
-        loading="lazy"
-        class="container-photo"
-      />
-      <img
-        src="./assets/test4.jpg"
-        alt=""
-        loading="lazy"
-        class="container-photo"
-      />
-      <img
-        src="./assets/praxis_Innen_bearbeitet15 (1 von 1).jpg"
-        alt=""
-        loading="lazy"
-        class="container-photo"
-      />
-      <img
-        src="./assets/test10.jpg"
-        alt=""
-        loading="lazy"
-        class="container-photo"
-      />
+    <div class="container no-outer-padding">
+      <div class="row">
+        <div class="col-6 test">
+          <img src="./assets/covid.jpg" alt="" class="card-picture" />
+        </div>
+        <div class="col-6 test">
+          <div class="div-block">
+            <h3>Allgemeinmedizin</h3>
+            <p class="grid--card--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum
+              aliquam voluptatem recusandae numquam impedit fugiat, velit
+              architecto quo suscipit, quod voluptatum libero, labore totam
+              dolores accusamus laudantium! Enim, dicta.
+            </p>
+            <a href="/allgemeinmedizin.html" class="grid-card--link"
+              >Mehr erfahren</a
+            >
+          </div>
+          <div class="div-block">
+            <h3>Reisemedizin</h3>
+            <p class="grid--card--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum
+              aliquam voluptatem recusandae numquam impedit fugiat, velit
+              architecto quo suscipit, quod voluptatum libero, labore totam
+              dolores accusamus laudantium! Enim, dicta.
+            </p>
+            <a href="" class="grid-card--link">Mehr erfahren</a>
+          </div>
+          <div class="div-block">
+            <h3>Akupunktur</h3>
+            <p class="grid--card--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum
+              aliquam voluptatem recusandae numquam impedit fugiat, velit
+              architecto quo suscipit, quod voluptatum libero, labore totam
+              dolores accusamus laudantium! Enim, dicta.
+            </p>
+            <a href="" class="grid-card--link">Mehr erfahren</a>
+          </div>
+          <div class="div-block-borderless">
+            <h3>GMZ</h3>
+            <p class="grid--card--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum
+              aliquam voluptatem recusandae numquam impedit fugiat, velit
+              architecto quo suscipit, quod voluptatum libero, labore totam
+              dolores accusamus laudantium! Enim, dicta.
+            </p>
+            <a href="" class="grid-card--link">Mehr erfahren</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container no-outer-padding">
+      <div class="row">
+        <div class="col-6 test">
+          <div class="card-text">
+            <h1>Das erwartet Sie in unserer Hausarztpraxis Farchant</h1>
+            <ul class="card-list">
+              <li class="card-list--item">
+                <div><img src="./assets/checkbox.svg" alt="" /></div>
+                <div>Qualtitative Allgemeinmedizin mit moderner Technik</div>
+              </li>
+              <li class="card-list--item">
+                <div><img src="./assets/checkbox.svg" alt="" /></div>
+                <div>Verlässliche Beratung in vertrauensvoller Atomsphäre</div>
+              </li>
+              <li class="card-list--item">
+                <div><img src="./assets/checkbox.svg" alt="" /></div>
+                <div>
+                  Präzise, gewissenhafte Behandlung fundiert auf
+                  wissenschaftlichen Erkenntnissen
+                </div>
+              </li>
+            </ul>
+            <div class="btn-secondary-wrapper">
+              <a href="" class="btn btn-secondary btn-plain"> Über uns </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 test">
+          <img src="./assets/test3.jpg" alt="" class="card-picture" />
+        </div>
+      </div>
+    </div>
+    <div class="container container-bottom">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-title">Was uns als Hausärzte auszeichnet</h2>
+        </div>
+        <div class="col">
+          <div class="container-grid-bottom">
+            <div class="icon">
+              <img src="./assets/emoticon-excited.svg" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./assets/hand-heart.svg" alt="" />
+            </div>
+            <div class="icon"><img src="./assets/needle.svg" alt="" /></div>
+            <h4>Wir lieben unsere Arbeit als Hausärzte</h4>
+            <h4>Eine familiäre Atmosphäre ist für uns von größter Bedeutung</h4>
+            <h4>Unsere Praxisräume sind modern und freundlich</h4>
+            <p>
+              Es bereitet uns Freude, Menschen in unserer Praxis zu helfen.
+              Unsere Erfahrung setzen wir ein, um Ihnen die bestmögliche
+              Behandlung zu ermöglichen.
+            </p>
+            <p>
+              Eine vertraute Beziehung zu unseren Patienten steht dabei absolut
+              im Vordergrund. Wir nehmen uns für Sie Zeit und möchten, dass Sie
+              sich bei uns wohlfühlen.
+            </p>
+            <p>
+              Wir bieten Ihnen eine moderne Praxisausstattung und den neuesten
+              Stand der medizinischen Technik! Bei uns sind Sie in den besten
+              Händen!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <div class="container">
