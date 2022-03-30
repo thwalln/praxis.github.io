@@ -4,6 +4,7 @@
 }
 
 /* NEW BOOTSTRA? RULES */
+
 .container {
   max-width: 1200px;
 }
@@ -500,9 +501,9 @@ img {
     margin-bottom: 15px;
   }
 
-  .container {
+  /* .container {
     padding: 0 40px;
-  }
+  } */
 
   .section.large-section {
     padding: 40px 0 20px 0;
@@ -624,9 +625,9 @@ img {
     padding: 20px 0 20px 0;
   }
 
-  .container {
+  /* .container {
     padding: 0 20px;
-  }
+  } */
 
   .row {
     margin-left: 0;
