@@ -23,7 +23,7 @@
         <!-- HIER NOCH DEN LINK HINZUFÜGEN -->
         <a href="">
           <img
-            src="./assets/NewLogoTest.svg"
+            src="./assets/logo.svg"
             id="logo"
             alt="Logo der Hausarztpraxis Farchant"
           />
@@ -44,13 +44,13 @@
         <div class="hamburger"><img src="./assets/menu.svg" alt="" /></div>
       </div>
     </header>
-    <div class="section first-section no-padding-bottom">
+    <div class="first-section">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="content-400">
+            <div>
               <div>
-                <p class="paragraph-2">Leistung</p>
+                <p class="text-uppercase">Leistung</p>
                 <h1>GMZ</h1>
               </div>
               <p>
@@ -61,31 +61,54 @@
             </div>
           </div>
           <div class="col">
-            <div class="div-block-8">
-              <img src="./assets/test8.jpg" alt="" class="leistung-img" />
+            <img src="./assets/test6.jpg" alt="" class="hero-img-leistung" />
+          </div>
+        </div>
+      </div>
+      <div class="divider grey"></div>
+    </div>
+    <div class="grey-background">
+      <div class="container text-block">
+        <div class="row">
+          <div class="col">
+            <h2>
+              Patienten mit Selektivvertrag haben Anspruch auf eine erweiterte
+              medizinische Vorsorge.
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>
+                Sie interessieren sich ob eine Einschreibung eine Alternative
+                für Sie wäre? Sprechen Sie uns an.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="background-element size-small grey"></div>
     </div>
-    <div class="section large-section">
-      <div class="big-text-block">
-        <h2>
-          Patienten mit Selektivvertrag haben Anspruch auf eine erweiterte
-          medizinische Vorsorge.
-        </h2>
-        <p>
-          Sie interessieren sich ob eine Einschreibung eine Alternative für Sie
-          wäre? Sprechen Sie uns an.
-        </p>
-      </div>
-    </div>
-    <div id="sprechzeiten" class="hp-action-wrap white">
-      <div class="action-box">
-        <div class="content-grid">
-          <div id="sprechzeiten-uebersicht">
-            <h3 class="heading-bar desktop-show">Sprechzeiten</h3>
+    <div>
+      <div class="container sprechzeiten">
+        <div class="row large-screen">
+          <div class="col">
+            <h3 class="col-heading">Kontakt</h3>
+            <p class="paragraph muted">
+              Hausarztpraxis Farchant
+              <br />
+              Partnachstraße 2
+              <br />
+              82490 Farchant
+            </p>
+            <p class="paragraph muted">
+              <span>Telefon:</span>
+              +49 8821 6762
+              <br />
+              <span>Telefax:</span>
+              +49 8821 61768
+            </p>
+          </div>
+          <div class="col">
+            <h3 class="col-heading">Sprechzeiten</h3>
             <p class="paragraph muted">
               Um lange Wartezeiten zu vermeiden, bitten wir Sie um
               Terminvereinbarung
@@ -99,63 +122,95 @@
               </a>
             </div>
           </div>
-          <div id="sprechzeiten-tabelle">
-            <div class="info-box-hl mobile-show">
-              <h3 class="heading-bar">Sprechzeiten</h3>
-            </div>
-            <div class="time-list-wrapper">
-              <ul class="list">
-                <li class="time-list">
-                  <div class="day-wrap">
-                    <div class="day-highlight">Montag</div>
-                  </div>
-                  <div class="daytime-holder">
-                    <div>08.00 - 12.00</div>
-                    <div>|</div>
-                    <div>15.00 - 18.00</div>
-                  </div>
-                </li>
-                <li class="time-list">
-                  <div class="day-wrap">
-                    <div class="day-highlight">Dienstag</div>
-                  </div>
-                  <div class="daytime-holder">
-                    <div>08.00 - 12.00</div>
-                    <div>|</div>
-                    <div>15.00 - 18.00</div>
-                  </div>
-                </li>
-                <li class="time-list">
-                  <div class="day-wrap">
-                    <div class="day-highlight">Mittwoch</div>
-                  </div>
-                  <div class="daytime-holder">
-                    <div>08.00 - 12.00</div>
-                  </div>
-                </li>
-                <li class="time-list">
-                  <div class="day-wrap">
-                    <div class="day-highlight">Donnerstag</div>
-                  </div>
-                  <div class="daytime-holder">
-                    <div>08.00 - 12.00</div>
-                    <div>|</div>
-                    <div>15.00 - 18.00</div>
-                  </div>
-                </li>
-                <li class="time-list">
-                  <div class="day-wrap">
-                    <div class="day-highlight">Freitag</div>
-                  </div>
-                  <div class="daytime-holder">
-                    <div>08.00 - 14.00</div>
-                  </div>
-                </li>
-              </ul>
+          <div class="col">
+            <div>
+              <table class="table table-borderless">
+                <tbody>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Montag</th>
+                    <td>08.00 - 12.00</td>
+                    <td>|</td>
+                    <td>16.00 - 18.00</td>
+                  </tr>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Dienstag</th>
+                    <td>08.00 - 12.00</td>
+                    <td>|</td>
+                    <td>16.00 - 18.00</td>
+                  </tr>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Mittwoch</th>
+                    <td>08.00 - 12.00</td>
+                  </tr>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Donnerstag</th>
+                    <td>08.00 - 12.00</td>
+                    <td>|</td>
+                    <td>16.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="row-borderless day-highlight">
+                      Freitag
+                    </th>
+                    <td>08.00 - 14.00</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-          <div id="sprechzeiten-kontakt">
-            <h3 class="heading-bar">Kontakt</h3>
+        </div>
+        <div class="row small-screen">
+          <div class="col">
+            <div class="margin-bottom">
+              <h3 class="col-heading">Sprechzeiten</h3>
+              <table class="table table-borderless">
+                <tbody>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Montag</th>
+                    <td>08.00 - 12.00</td>
+                    <td>|</td>
+                    <td>16.00 - 18.00</td>
+                  </tr>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Dienstag</th>
+                    <td>08.00 - 12.00</td>
+                    <td>|</td>
+                    <td>16.00 - 18.00</td>
+                  </tr>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Mittwoch</th>
+                    <td>08.00 - 12.00</td>
+                  </tr>
+                  <tr class="table-border">
+                    <th scope="row" class="day-highlight">Donnerstag</th>
+                    <td>08.00 - 12.00</td>
+                    <td>|</td>
+                    <td>16.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="row-borderless day-highlight">
+                      Freitag
+                    </th>
+                    <td>08.00 - 14.00</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="paragraph muted">
+                Um lange Wartezeiten zu vermeiden, bitten wir Sie um
+                Terminvereinbarung
+              </p>
+              <div>
+                <a
+                  href="tel:+4988216762"
+                  class="btn btn-secondary btn-secondary-phone"
+                >
+                  +49 8821 6762
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col no-margin-bottom">
+            <h3 class="col-heading">Kontakt</h3>
             <p class="paragraph muted">
               Hausarztpraxis Farchant
               <br />
@@ -163,37 +218,47 @@
               <br />
               82490 Farchant
             </p>
-            <p class="paragraph muted">
-              <span class="grid--card--span">Telefon:</span>
+            <p class="paragraph muted no-margin-bottom">
+              <span>Telefon:</span>
               +49 8821 6762
               <br />
-              <span class="grid--card--span">Telefax:</span>
+              <span>Telefax:</span>
               +49 8821 61768
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="section photo-section">
+    <div class="container-photo-section">
       <img
         src="./assets/praxis_bearbeitet16 (1 von 1).jpg"
         alt=""
         loading="lazy"
-        class="feed-photo"
+        class="container-photo"
       />
-      <img src="./assets/test4.jpg" alt="" loading="lazy" class="feed-photo" />
+      <img
+        src="./assets/test4.jpg"
+        alt=""
+        loading="lazy"
+        class="container-photo"
+      />
       <img
         src="./assets/praxis_Innen_bearbeitet15 (1 von 1).jpg"
         alt=""
         loading="lazy"
-        class="feed-photo"
+        class="container-photo"
       />
-      <img src="./assets/test10.jpg" alt="" loading="lazy" class="feed-photo" />
+      <img
+        src="./assets/test10.jpg"
+        alt=""
+        loading="lazy"
+        class="container-photo"
+      />
     </div>
     <footer class="footer">
-      <div class="container footer-wrapper">
-        <div class="footer-flex-container">
-          <div class="footer-flex-container-left">
+      <div class="container">
+        <div class="row footer">
+          <div class="col footer-col-left margin-bottom">
             <h3 class="footer-hl">
               <img src="./assets/logo-grey.svg" alt="" class="icon--left" />
               Hausarztpraxis Farchant
@@ -206,41 +271,35 @@
               und GMZ.
             </p>
           </div>
-          <div class="footer-flex-container-right">
-            <div class="col-2 footer-col">
-              <h3 class="footer-heading">Leistungen</h3>
-              <div class="row-2">
-                <div class="col-2">
-                  <ul class="list-unstyled">
-                    <li><a href="" class="footer-link">Allgemeinmedizin</a></li>
-                    <li><a href="" class="footer-link">Reisemedizin</a></li>
-                    <li><a href="" class="footer-link">Akupunktur</a></li>
-                    <li><a href="" class="footer-link">GMZ</a></li>
-                  </ul>
-                </div>
+          <div class="col footer-col-right">
+            <div class="row">
+              <div class="col">
+                <h3 class="footer-heading">Leistungen</h3>
+                <ul class="list-unstyled margin-bottom">
+                  <li>
+                    <a href="" class="footer-list-item">Allgemeinmedizin</a>
+                  </li>
+                  <li>
+                    <a href="" class="footer-list-item">Reisemedizin</a>
+                  </li>
+                  <li><a href="" class="footer-list-item">Akupunktur</a></li>
+                  <li><a href="" class="footer-list-item">GMZ</a></li>
+                </ul>
               </div>
-            </div>
-            <div class="col-2 footer-col">
-              <h3 class="footer-heading">Praxis</h3>
-              <div class="row-2">
-                <div class="col-2">
-                  <ul class="list-unstyled">
-                    <li><a href="" class="footer-link">Über uns</a></li>
-                    <li><a href="" class="footer-link">Anfahrt</a></li>
-                  </ul>
-                </div>
+              <div class="col">
+                <h3 class="footer-heading">Praxis</h3>
+                <ul class="list-unstyled margin-bottom">
+                  <li><a href="" class="footer-list-item">Über uns</a></li>
+                  <li><a href="" class="footer-list-item">Anfahrt</a></li>
+                </ul>
               </div>
-            </div>
-            <div class="col-2">
-              <h3 class="footer-heading">Allgemein</h3>
-              <div class="row-2">
-                <div class="col-2">
-                  <ul class="list-unstyled">
-                    <li><a href="" class="footer-link">Kontakt</a></li>
-                    <li><a href="" class="footer-link">Datenschutz</a></li>
-                    <li><a href="" class="footer-link">Impressum</a></li>
-                  </ul>
-                </div>
+              <div class="col">
+                <h3 class="footer-heading">Allgemein</h3>
+                <ul class="list-unstyled">
+                  <li><a href="" class="footer-list-item">Kontakt</a></li>
+                  <li><a href="" class="footer-list-item">Datenschutz</a></li>
+                  <li><a href="" class="footer-list-item">Impressum</a></li>
+                </ul>
               </div>
             </div>
           </div>
