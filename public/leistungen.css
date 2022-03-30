@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+/* NEW BOOTSTRA? RULES */
+.container {
+  max-width: 1200px;
+}
+
+/* END NEW BOOTSTRAP RULES */
+
 header {
   position: fixed;
   left: 0;
@@ -170,10 +177,6 @@ a {
 
 .section.first-section.no-padding-bottom {
   padding-bottom: 0;
-}
-
-.container {
-  max-width: 1200px;
 }
 
 .div-block-8 {
@@ -450,13 +453,33 @@ img {
 /**/
 /**/
 
+@media screen and (max-width: 576) {
+}
+
+@media screen and (min-width: 577px) {
+  .container {
+    max-width: 85vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 85vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}
+
 @media screen and (max-width: 991px) {
   .nav-mobile-wrapper {
     display: none;
-  }
-
-  .hamburger {
-    display: block;
   }
 }
 
