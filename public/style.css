@@ -104,6 +104,7 @@ header {
   display: flex;
   width: 100%;
   height: 75px;
+  margin-bottom: -1px;
   margin-right: 0;
   margin-left: 0;
   padding-right: 48px;
@@ -146,6 +147,7 @@ header {
 }
 
 .btn-header.navigation-item {
+  align-self: center;
   padding-left: 20px;
 }
 
@@ -267,7 +269,7 @@ header {
   right: 0;
   z-index: -1;
   height: 200px;
-  background-color: #2b67cc;
+  background-color: #2f7393;
 }
 
 .divider {
@@ -610,6 +612,7 @@ td {
   background-repeat: no-repeat;
   background-position: 10% 50%;
   background-size: 20px;
+  border-color: #2f7393;
 }
 
 .btn-primary-phone:hover {
@@ -717,7 +720,7 @@ td {
 }
 
 .grid-card--link {
-  color: #2b67cc;
+  color: #2f7393;
   font-size: 16px;
   text-decoration: none;
 }
