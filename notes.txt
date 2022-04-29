@@ -3,4 +3,4 @@ NEXT STEPS
 index.html reworken
 dann die Über uns Seite noch machen mit den ganzen Bildern etc
 dann noch kurz die Impressum Seite, Datenschutz und Kontakt machen und die Verlinkungen zum laufen krieegen
-dann noch deployen und schauen ob alles funktioniert
+dann noch deployen und schauen ob alles funktioniert.
