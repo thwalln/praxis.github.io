@@ -778,3 +778,8 @@ td {
 .datenschutz {
   padding-bottom: 32px;
 }
+
+#map {
+  height: 400px;
+  width: 100%;
+}
