@@ -4,3 +4,20 @@ index.html reworken
 dann die Über uns Seite noch machen mit den ganzen Bildern etc
 dann noch kurz die Impressum Seite, Datenschutz und Kontakt machen und die Verlinkungen zum laufen krieegen
 dann noch deployen und schauen ob alles funktioniert.
+
+
+Struktur:
+1) Home
+2) Aktuelles
+3) Leistungen
+    Hausärztlich
+    Akupunktur
+    Reisemedizin
+    GMZ
+4) Team
+5) Praxis
+6) Sprechzeiten
+7) Kontakt --> Header & Footer
+8) Datenschutz --> Footer
+9) Impressum --> Footer
+
