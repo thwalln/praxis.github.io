@@ -774,6 +774,7 @@ td {
   padding: 16px 0;
 }
 
-.impressum {
+.impressum,
+.datenschutz {
   padding-bottom: 32px;
 }
