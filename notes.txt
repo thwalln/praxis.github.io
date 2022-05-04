@@ -10,14 +10,14 @@ Struktur:
 1) Home
 2) Aktuelles
 3) Leistungen
-    Hausärztlich
-    Akupunktur
-    Reisemedizin
-    GMZ
+    Hausärztlich -----------------------------> DONE
+    Akupunktur -----------------------------> DONE
+    Reisemedizin -----------------------------> DONE
+    GMZ -----------------------------> DONE
 4) Team
 5) Praxis
 6) Sprechzeiten
 7) Kontakt --> Header & Footer
 8) Datenschutz --> Footer
-9) Impressum --> Footer
+9) Impressum --> Footer -----------------------------> DONE
 
