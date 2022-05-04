@@ -18,7 +18,7 @@ Struktur:
 5) Praxis
 6) Sprechzeiten
 7) Kontakt --> Header & Footer
-8) Datenschutz --> Footer
+8) Datenschutz --> Footer -----------------------------> DONE
 9) Impressum --> Footer -----------------------------> DONE
 
 datenschutz
