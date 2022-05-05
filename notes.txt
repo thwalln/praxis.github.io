@@ -17,8 +17,18 @@ Struktur:
 4) Team
 5) Praxis
 6) Sprechzeiten
-7) Kontakt --> Header & Footer
+7) Kontakt --> Header & Footer -----------------------------> FOOTER DONE, Header still to do
 8) Datenschutz --> Footer -----------------------------> DONE
 9) Impressum --> Footer -----------------------------> DONE
 
-datenschutz
+Den Text hier vielleicht noch irgendwo reinwursten
+Unsere Praxis ist ein fester Bestandteil des Farchanter Ortsbildes - und das seit fast 4 Jahrzenten! Die Praxis ist zentral gelegen,
+                bietet Parkplätze und eine Anbindung an den ÖPNV mit einer
+                Haltestelle mit weniger als 50m Fußweg. Unsere frisch
+                renovierten Räumlichkeiten sind hell und freundlich gestaltet
+                und barrierefrei zu erreichen. Patienten mit infektiösen
+                Erkrankungen besuchen die Praxis über einen separaten Zugang und
+                werden in einem eigenen Infektionsraum behandelt ohne sich
+                vorher im Wartezimmer mit anderen Patienten aufzuhalten. Eine
+                vorhergehende telefonische Terminvereinbarung hilft uns dabei
+                Ihren Termin optimal vorzubereiten.
