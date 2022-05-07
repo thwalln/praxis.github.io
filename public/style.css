@@ -823,8 +823,8 @@ td {
   font-size: 1rem;
 }
 
-.row.profiles .col .header {
+.mitarbeiter-header {
   text-align: center;
   color: #000;
-  font-size: 2rem;
+  margin-bottom: 40px;
 }
