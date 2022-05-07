@@ -785,7 +785,7 @@ td {
 }
 
 .portrait {
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 50%;
 }
 
@@ -796,8 +796,8 @@ td {
 }
 
 .row.profiles {
-  margin-top: 36px;
-  gap: 36px;
+  margin-top: 24px;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -810,15 +810,21 @@ td {
 
 .row.profiles h1 {
   color: #2f7393;
-  font-size: 2.75rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .row.profiles h3 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   margin: 0;
 }
 
 .row.profiles p {
   font-size: 1rem;
+}
+
+.row.profiles .col .header {
+  text-align: center;
+  color: #000;
+  font-size: 2rem;
 }
