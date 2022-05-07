@@ -149,6 +149,7 @@ header {
 
 .nav-link:hover {
   border-bottom: 2px solid #2f7393;
+  color: #2f7393;
 }
 
 .nav-link:active {
@@ -638,6 +639,7 @@ td {
   background-image: url('./assets/phone-blue.svg');
   background-color: #fff;
   color: #2f7393;
+  border-color: #2f7393;
 }
 
 .btn-secondary {
@@ -661,6 +663,7 @@ td {
   background-image: url('./assets/phone-white.svg');
   background-color: #2f7393;
   color: #fff;
+  border-color: #2f7393;
 }
 
 .btn-light {
@@ -680,8 +683,12 @@ td {
   color: #2f7393;
 }
 
-.btn-plain {
+.btn.btn-plain {
+  align-self: flex-start;
+  background-color: #2f7393;
+  color: #fff;
   border-radius: 32px;
+  width: 120px;
   display: flex;
   padding: 6px 24px;
   justify-content: center;
@@ -691,8 +698,8 @@ td {
 }
 
 .btn-plain:hover {
-  background-color: #2f7393;
-  color: #fff;
+  background-color: #fff;
+  color: #2f7393;
 }
 
 /* MORE CLEANUP */
@@ -868,5 +875,28 @@ td {
 }
 
 .container-hero .row {
+  margin: 0;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-list-wrapper {
+  width: 50%;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.card-list-wrapper h2,
+.card-list-wrapper ul {
+  margin: 0;
+}
+
+.card-list-wrapper a {
   margin: 0;
 }
