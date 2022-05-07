@@ -287,6 +287,12 @@ header {
   padding-bottom: 120px;
 }
 
+.white-background {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 120px;
+}
+
 .container.sprechzeiten {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -801,6 +807,16 @@ td {
   justify-content: center;
 }
 
+.row.profiles.header {
+  text-align: center;
+  margin: 0 0 56px 0;
+}
+
+.row.profiles.header h1 {
+  font-size: 3rem;
+  color: #000;
+}
+
 .row.profiles .col {
   max-width: 620px;
   display: flex;
@@ -821,10 +837,4 @@ td {
 
 .row.profiles p {
   font-size: 1rem;
-}
-
-.mitarbeiter-header {
-  text-align: center;
-  color: #000;
-  margin-bottom: 40px;
 }
