@@ -180,6 +180,12 @@ header {
   margin-top: 75px;
 }
 
+.hero-h1 {
+  color: #fff;
+  font-weight: 500;
+  max-width: 1200px;
+}
+
 .hero-content {
   align-items: center;
   color: #fff;
@@ -191,12 +197,10 @@ header {
   margin: auto;
   max-width: 80vw;
   text-align: center;
-  width: 100%;
 }
 
-.hero-h1 {
-  color: #fff;
-  font-weight: 500;
+.hero-paragraph {
+  max-width: 800px;
 }
 
 .container.no-outer-padding {
@@ -846,4 +850,23 @@ td {
 
 .row.profiles p {
   font-size: 1rem;
+}
+
+.full-width {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-hero {
+  display: flex;
+  background-color: #fff;
+}
+
+.container-hero .col {
+  padding: 0;
+}
+
+.container-hero .row {
+  margin: 0;
 }
