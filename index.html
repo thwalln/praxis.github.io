@@ -29,7 +29,31 @@
         <div class="nav-mobile-wrapper">
           <a href="./index.html" class="nav-link">Home</a>
           <a href="./praxis.html" class="nav-link">Unsere Praxis</a>
-          <a href="" class="nav-link">Unsere Leistungen</a>
+          <!-- <a href="" class="nav-link leistungen">Unsere Leistungen</a> -->
+          <div class="dropdown show">
+            <a
+              class="btn btn-secondary dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+            >
+              Leistungen
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="./allgemeinmedizin.html"
+                >Allgemeinmedizin</a
+              >
+              <a class="dropdown-item" href="./reisemedizin.html"
+                >Reisemedizin</a
+              >
+              <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
+              <a class="dropdown-item" href="./gmz">GMZ</a>
+            </div>
+          </div>
           <a href="./kontakt.html" class="nav-link">Kontakt</a>
           <div class="btn-header navigation-item">
             <a href="tel:+4988216762" class="btn btn-primary btn-primary-phone">
@@ -51,7 +75,7 @@
           für Sie und Ihre Gesundheit da. Als langjährige Ansprechpartner für
           Ihre gesundheitlichen Fragen und Anliegen sind wir stets an Ihrer
           Seite und bieten Ihnen individuelle Lösungen vor dem Hintergrund einer
-          ganzheitlichen Betrachtungsweise an
+          ganzheitlichen Betrachtungsweise an.
         </p>
         <a href="#sprechzeiten" class="btn btn-light">Sprechzeiten</a>
       </div>
@@ -337,9 +361,7 @@
                 <h3 class="footer-heading">Leistungen</h3>
                 <ul class="list-unstyled margin-bottom">
                   <li>
-                    <a
-                      href="./allgemeinmedizin.html"
-                      class="footer-list-item"
+                    <a href="./allgemeinmedizin.html" class="footer-list-item"
                       >Allgemeinmedizin</a
                     >
                   </li>
@@ -396,5 +418,11 @@
         </p>
       </div>
     </footer>
+    <script src="./app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
