@@ -788,3 +788,37 @@ td {
   max-width: 400px;
   border-radius: 50%;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row.profiles {
+  margin-top: 36px;
+  gap: 36px;
+  justify-content: center;
+}
+
+.row.profiles .col {
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row.profiles h1 {
+  color: #2f7393;
+  font-size: 2.75rem;
+  margin: 0;
+}
+
+.row.profiles h3 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.row.profiles p {
+  font-size: 1rem;
+}
