@@ -19,7 +19,7 @@
   <body>
     <header>
       <div class="nav-container">
-        <a href="/index.html">
+        <a href="./index.html">
           <img
             src="./assets/logo.svg"
             id="logo"
@@ -27,10 +27,10 @@
           />
         </a>
         <div class="nav-mobile-wrapper">
-          <a href="/index.html" class="nav-link">Home</a>
-          <a href="/praxis.html" class="nav-link">Unsere Praxis</a>
+          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./praxis.html" class="nav-link">Unsere Praxis</a>
           <a href="" class="nav-link">Unsere Leistungen</a>
-          <a href="/kontakt.html" class="nav-link">Kontakt</a>
+          <a href="./kontakt.html" class="nav-link">Kontakt</a>
           <div class="btn-header navigation-item">
             <a href="tel:+4988216762" class="btn btn-primary btn-primary-phone">
               +49 8821 6762
@@ -211,7 +211,7 @@
                 velit architecto quo suscipit, quod voluptatum libero, labore
                 totam dolores accusamus laudantium! Enim, dicta.
               </p>
-              <a href="/allgemeinmedizin.html" class="grid-card--link"
+              <a href="./allgemeinmedizin.html" class="grid-card--link"
                 >Mehr erfahren</a
               >
             </div>
@@ -338,23 +338,23 @@
                 <ul class="list-unstyled margin-bottom">
                   <li>
                     <a
-                      href="/allgemeinmedizin.html"
+                      href="./allgemeinmedizin.html"
                       class="footer-list-item"
                       >Allgemeinmedizin</a
                     >
                   </li>
                   <li>
-                    <a href="/reisemedizin.html" class="footer-list-item"
+                    <a href="./reisemedizin.html" class="footer-list-item"
                       >Reisemedizin</a
                     >
                   </li>
                   <li>
-                    <a href="/akupunktur.html" class="footer-list-item"
+                    <a href="./akupunktur.html" class="footer-list-item"
                       >Akupunktur</a
                     >
                   </li>
                   <li>
-                    <a href="/gmz.html" class="footer-list-item">GMZ</a>
+                    <a href="./gmz.html" class="footer-list-item">GMZ</a>
                   </li>
                 </ul>
               </div>
@@ -369,17 +369,17 @@
                 <h3 class="footer-heading">Allgemein</h3>
                 <ul class="list-unstyled">
                   <li>
-                    <a href="/kontakt.html" class="footer-list-item"
+                    <a href="./kontakt.html" class="footer-list-item"
                       >Kontakt</a
                     >
                   </li>
                   <li>
-                    <a href="/datenschutz.html" class="footer-list-item"
+                    <a href="./datenschutz.html" class="footer-list-item"
                       >Datenschutz</a
                     >
                   </li>
                   <li>
-                    <a href="/impressum.html" class="footer-list-item"
+                    <a href="./impressum.html" class="footer-list-item"
                       >Impressum</a
                     >
                   </li>
