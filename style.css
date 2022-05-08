@@ -838,6 +838,10 @@ td {
     display: none;
   }
 
+  .hero {
+    background-image: url('./assets/ferdinand-stohr-P9Ujxu_UmiA-unsplash.jpg');
+  }
+
   .container-photo-section {
     flex-wrap: wrap;
   }
@@ -952,6 +956,19 @@ td {
 }
 
 @media screen and (max-width: 479px) {
+  .hero-h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .hero-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .hero-content {
+    gap: 12px;
+  }
+
   h1 {
     margin-bottom: 24px;
     font-size: 32px;
