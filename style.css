@@ -742,6 +742,11 @@ td {
   fill: var(--bs-body-color);
 }
 
+.dropdown-item:active {
+  background-color: #2f7393;
+  color: #fff;
+}
+
 .btn.btn-secondary.dropdown-toggle {
   background-color: transparent;
   border-color: transparent;
