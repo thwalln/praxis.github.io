@@ -1,7 +1,3 @@
-document.querySelector('header').addEventListener('click', () => {
-  console.log('click')
-})
-
 function initMap() {
   const farchant = { lat: 47.5287349, lng: 11.111717 }
 
@@ -17,9 +13,7 @@ function initMap() {
 
 window.initMap = initMap
 
-var dropdownElementList = [].slice.call(
-  document.querySelectorAll('.dropdown-toggle'),
-)
-var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
-  return new bootstrap.Dropdown(dropdownToggleEl)
+const hamburger = document.querySelector('.hamburger')
+hamburger.addEventListener('click', () => {
+  console.log('hello')
 })

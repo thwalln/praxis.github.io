@@ -589,6 +589,10 @@ td {
   padding: 80px 0 0 0;
 }
 
+.padding-top-80 .row {
+  margin: 0;
+}
+
 .grid-card--link {
   color: #2f7393;
   font-size: 16px;
@@ -903,6 +907,8 @@ td {
 
   .nav-container {
     height: 65px;
+    padding: 0 16px;
+    width: 100%;
   }
 
   .no-margin-bottom {
@@ -933,16 +939,11 @@ td {
 
   .flex-center {
     margin: 24px 0;
-    padding: 0 16px;
+    padding: 0;
   }
 
   .flex-center h4 {
     min-height: auto;
-  }
-
-  .nav-container {
-    padding-right: 16px;
-    padding-left: 16px;
   }
 }
 
@@ -986,5 +987,9 @@ td {
 
   .footer {
     padding-top: 20px;
+  }
+
+  .hamburger img {
+    width: 32px;
   }
 }
