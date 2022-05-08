@@ -560,6 +560,7 @@ td {
 }
 
 #dropdownMenuLink {
+  outline: none;
   border: none;
   background: none;
 }
