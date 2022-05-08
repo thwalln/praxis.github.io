@@ -799,14 +799,6 @@ td {
   border-color: transparent;
 }
 
-.penis {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: none;
 }
