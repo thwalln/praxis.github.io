@@ -7,3 +7,5 @@
 </p>
 
 und auch noch das bild auf der home seite con den dreien auf mobile optimieren
+
+und auch noch die leistungsseiten optimieren, auf der rechten Seite ist zu viel space
