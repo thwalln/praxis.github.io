@@ -281,29 +281,11 @@ header {
   object-fit: cover;
 }
 
-.divider {
-  position: absolute;
-  left: 0;
-  top: auto;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  height: 200px;
-  background-color: #2f7393;
-}
-
-.divider {
-  height: 80px;
-}
-
-.divider.grey {
-  background-color: #f7f8fa;
-}
-
 .grey-background {
+  margin-top: -80px;
   width: 100%;
   background-color: #f7f8fa;
-  padding-top: 120px;
+  padding-top: 200px;
   padding-bottom: 120px;
 }
 
