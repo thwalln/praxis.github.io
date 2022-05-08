@@ -228,6 +228,12 @@ header {
   flex-direction: column;
 }
 
+.dropdown-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .test {
   padding: 0;
 }
@@ -496,11 +502,35 @@ td {
   background-image: url('./assets/phone-white.svg');
 }
 
+.btn-transparent.telefon.blue {
+  background-color: #2f7393;
+  color: #fff;
+  background-image: url('./assets/phone-white.svg');
+}
+
+.btn-transparent.telefon.blue:hover {
+  background-color: #fff;
+  color: #2f7393;
+  background-image: url('./assets/phone-blue.svg');
+}
+
 .btn-transparent {
   background-repeat: no-repeat;
   background-position: 10% 50%;
   background-color: transparent;
   padding: 8px 28px 8px 48px;
+}
+
+.btn-primary {
+  background-color: #2f7393;
+  border-color: #2f7393;
+  width: 50%;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  border-color: #2f7393;
+  color: #2f7393;
 }
 
 /* .btn {
@@ -575,24 +605,7 @@ td {
   color: #2f7393;
 }
 
-.btn.btn-plain {
-  align-self: flex-start;
-  background-color: #2f7393;
-  color: #fff;
-  border-radius: 32px;
-  width: 120px;
-  display: flex;
-  padding: 6px 24px;
-  justify-content: center;
-  text-decoration: none;
-  border: 2px solid #2f7393;
-  line-height: 1.5rem;
-}
 
-.btn-plain:hover {
-  background-color: #fff;
-  color: #2f7393;
-} */
 
 /* MORE CLEANUP */
 
@@ -801,10 +814,6 @@ td {
 
 .card-list-wrapper a {
   margin: 0;
-}
-
-.dropdown.show {
-  padding-top: 15.5px;
 }
 
 .dropdown.show:hover {
