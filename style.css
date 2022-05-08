@@ -208,6 +208,7 @@ header {
 #covid .nav-link.covid::before,
 #gmz .nav-link.gmz::before,
 #team .nav-link.team::before,
+#kontakt .nav-link.kontakt::before,
 #leistungen .nav-link.allgemeinmedizin::before,
 #leistungen .nav-link.akupunktur::before,
 #leistungen .nav-link.reisemedizin::before {
