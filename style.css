@@ -793,10 +793,6 @@ td {
     display: flex;
   }
 
-  .hamburger img {
-    width: 48px;
-  }
-
   .hero {
     background-image: url('./assets/ferdinand-stohr-P9Ujxu_UmiA-unsplash.jpg');
   }
@@ -972,9 +968,5 @@ td {
 
   .footer {
     padding-top: 20px;
-  }
-
-  .hamburger img {
-    width: 32px;
   }
 }
