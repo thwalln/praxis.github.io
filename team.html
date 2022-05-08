@@ -16,7 +16,7 @@
     </style>
     <title>Hausarztpraxis Farchant</title>
   </head>
-  <body class="body-2">
+  <body id="team" class="body-2">
     <header>
       <div class="nav-container">
         <a href="./index.html">
@@ -27,37 +27,33 @@
           />
         </a>
         <div class="nav-mobile-wrapper">
-          <a href="./index.html" class="nav-link tester">Home</a>
-          <a href="./team.html" class="nav-link">Unser Team</a>
-          <a href="./covid.html" class="nav-link">Covid</a>
-          <a href="./gmz.html" class="nav-link">GMZ</a>
-          <a href="./praxis.html" class="nav-link">Unsere Praxis</a>
-          <div class="dropdown-wrapper">
-            <div class="dropdown show">
-              <a
-                class="btn btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
+          <a href="./index.html" class="nav-link index tester">Home</a>
+          <a href="./team.html" class="nav-link team">Unser Team</a>
+          <a href="./covid.html" class="nav-link covid">Covid</a>
+          <a href="./gmz.html" class="nav-link gmz">GMZ</a>
+          <a href="./praxis.html" class="nav-link praxis">Unsere Praxis</a>
+          <div class="dropdown">
+            <button
+              class="nav-link leistungen dropdown-toggle"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+            >
+              Leistungen
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="./allgemeinmedizin.html"
+                >Allgemeinmedizin</a
               >
-                Leistungen
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="./allgemeinmedizin.html"
-                  >Allgemeinmedizin</a
-                >
-                <a class="dropdown-item" href="./reisemedizin.html"
-                  >Reisemedizin</a
-                >
-                <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
-              </div>
+              <a class="dropdown-item" href="./reisemedizin.html"
+                >Reisemedizin</a
+              >
+              <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
             </div>
           </div>
-          <a href="./kontakt.html" class="nav-link">Kontakt</a>
+          <a href="./kontakt.html" class="nav-link kontakt">Kontakt</a>
           <div class="btn-header navigation-item">
             <a href="tel:+4988216762" class="btn btn-transparent telefon blue">
               +49 8821 6762
@@ -65,43 +61,41 @@
           </div>
         </div>
         <div class="hamburger">
-          <div class="dropdown-wrapper">
-            <div class="dropdown show">
-              <button
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
+          <div class="dropdown show">
+            <button
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  class="bi bi-list"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                  />
-                </svg>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="./index.html">Home</a>
-                <a class="dropdown-item" href="./team.html">Unser Team</a>
-                <a class="dropdown-item" href="./covid.html">Covid</a>
-                <a class="dropdown-item" href="./praxis.html">Unsere Praxis</a>
-                <a class="dropdown-item" href="./allgemeinmedizin.html"
-                  >Allgemeinmedizin</a
-                >
-                <a class="dropdown-item" href="./reisemedizin.html"
-                  >Reisemedizin</a
-                >
-                <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
-                <a class="dropdown-item" href="./gmz.html">GMZ</a>
-                <a class="dropdown-item" href="./kontakt.html">Kontakt</a>
-              </div>
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="./index.html">Home</a>
+              <a class="dropdown-item" href="./team.html">Unser Team</a>
+              <a class="dropdown-item" href="./covid.html">Covid</a>
+              <a class="dropdown-item" href="./praxis.html">Unsere Praxis</a>
+              <a class="dropdown-item" href="./allgemeinmedizin.html"
+                >Allgemeinmedizin</a
+              >
+              <a class="dropdown-item" href="./reisemedizin.html"
+                >Reisemedizin</a
+              >
+              <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
+              <a class="dropdown-item" href="./gmz.html">GMZ</a>
+              <a class="dropdown-item" href="./kontakt.html">Kontakt</a>
             </div>
           </div>
         </div>

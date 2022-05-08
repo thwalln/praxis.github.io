@@ -197,11 +197,18 @@ header {
   text-decoration: none;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #2f7393;
 }
 
-.nav-link:hover::before {
+.nav-link:hover::before,
+#index .nav-link.index::before,
+#praxis .nav-link.praxis::before,
+#covid .nav-link.covid::before,
+#gmz .nav-link.gmz::before,
+#team .nav-link.team::before,
+#dropdown .nav-link.leistungen::before {
   height: 5px;
   background-color: #2f7393;
   content: '';
