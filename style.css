@@ -738,6 +738,10 @@ td {
   align-items: center;
 }
 
+#dropdownMenuLink:focus {
+  box-shadow: none;
+}
+
 #dropdownMenuLink svg {
   fill: var(--bs-body-color);
 }
