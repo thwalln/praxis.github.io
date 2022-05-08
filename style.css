@@ -550,6 +550,11 @@ td {
   color: #2f7393;
 }
 
+#dropdownMenuLink {
+  border: none;
+  background: none;
+}
+
 /* MORE CLEANUP */
 
 .icon {
@@ -731,6 +736,10 @@ td {
 
 #dropdownMenuLink {
   align-items: center;
+}
+
+#dropdownMenuLink svg {
+  fill: var(--bs-body-color);
 }
 
 .btn.btn-secondary.dropdown-toggle {
