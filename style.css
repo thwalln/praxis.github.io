@@ -808,6 +808,11 @@ td {
     margin: auto;
     padding: 32px 12px;
   }
+
+  .row.reverse {
+    flex-direction: column-reverse;
+  }
+
   .col {
     margin-bottom: 0;
   }
