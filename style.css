@@ -208,7 +208,9 @@ header {
 #covid .nav-link.covid::before,
 #gmz .nav-link.gmz::before,
 #team .nav-link.team::before,
-#dropdown .nav-link.leistungen::before {
+#leistungen .nav-link.allgemeinmedizin::before,
+#leistungen .nav-link.akupunktur::before,
+#leistungen .nav-link.reisemedizin::before {
   height: 5px;
   background-color: #2f7393;
   content: '';
@@ -868,6 +870,10 @@ td {
 }
 
 @media screen and (max-width: 767px) {
+  .margin-top-mobile {
+    margin-top: 65px;
+  }
+
   .footer-heading {
     margin-bottom: 12px;
   }
