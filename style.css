@@ -12,8 +12,7 @@
 html {
   max-width: 1920px;
   margin: auto;
-  /* background-color: #f6f7fa; */
-  /* z-index: -1000; */
+  background-color: #f5f8fa;
 }
 
 body {
@@ -169,9 +168,6 @@ header {
 
 .hamburger {
   display: none;
-  position: relative;
-  z-index: 5;
-  padding: 8px;
   cursor: pointer;
 }
 
@@ -820,6 +816,14 @@ td {
     display: none;
   }
 
+  .hamburger {
+    display: flex;
+  }
+
+  .hamburger img {
+    width: 48px;
+  }
+
   .hero {
     background-image: url('./assets/ferdinand-stohr-P9Ujxu_UmiA-unsplash.jpg');
   }
@@ -935,6 +939,11 @@ td {
   .flex-center h4 {
     min-height: auto;
   }
+
+  .nav-container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -977,10 +986,5 @@ td {
 
   .footer {
     padding-top: 20px;
-  }
-
-  .nav-container {
-    padding-right: 16px;
-    padding-left: 16px;
   }
 }
