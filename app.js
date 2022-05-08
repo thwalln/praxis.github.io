@@ -14,6 +14,12 @@ function initMap() {
 window.initMap = initMap
 
 const hamburger = document.querySelector('.hamburger')
+const toggle = document.querySelector('.toggle')
+
 hamburger.addEventListener('click', () => {
-  console.log('hello')
+  if (toggle.style.visibility === 'visible') {
+    toggle.style.visibility = 'hidden'
+  } else {
+    toggle.style.visibility = 'visible'
+  }
 })
