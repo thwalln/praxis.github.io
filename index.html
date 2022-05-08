@@ -32,29 +32,27 @@
           <a href="./covid.html" class="nav-link">Covid</a>
           <a href="./gmz.html" class="nav-link">GMZ</a>
           <a href="./praxis.html" class="nav-link">Unsere Praxis</a>
-          <div class="dropdown-wrapper">
-            <div class="dropdown show">
-              <a
-                class="btn btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
+          <div class="dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+            >
+              Leistungen
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="./allgemeinmedizin.html"
+                >Allgemeinmedizin</a
               >
-                Leistungen
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="./allgemeinmedizin.html"
-                  >Allgemeinmedizin</a
-                >
-                <a class="dropdown-item" href="./reisemedizin.html"
-                  >Reisemedizin</a
-                >
-                <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
-              </div>
+              <a class="dropdown-item" href="./reisemedizin.html"
+                >Reisemedizin</a
+              >
+              <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
             </div>
           </div>
           <a href="./kontakt.html" class="nav-link">Kontakt</a>
@@ -65,43 +63,41 @@
           </div>
         </div>
         <div class="hamburger">
-          <div class="dropdown-wrapper">
-            <div class="dropdown show">
-              <button
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
+          <div class="dropdown show">
+            <button
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  class="bi bi-list"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                  />
-                </svg>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="./index.html">Home</a>
-                <a class="dropdown-item" href="./team.html">Unser Team</a>
-                <a class="dropdown-item" href="./covid.html">Covid</a>
-                <a class="dropdown-item" href="./praxis.html">Unsere Praxis</a>
-                <a class="dropdown-item" href="./allgemeinmedizin.html"
-                  >Allgemeinmedizin</a
-                >
-                <a class="dropdown-item" href="./reisemedizin.html"
-                  >Reisemedizin</a
-                >
-                <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
-                <a class="dropdown-item" href="./gmz.html">GMZ</a>
-                <a class="dropdown-item" href="./kontakt.html">Kontakt</a>
-              </div>
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="./index.html">Home</a>
+              <a class="dropdown-item" href="./team.html">Unser Team</a>
+              <a class="dropdown-item" href="./covid.html">Covid</a>
+              <a class="dropdown-item" href="./praxis.html">Unsere Praxis</a>
+              <a class="dropdown-item" href="./allgemeinmedizin.html"
+                >Allgemeinmedizin</a
+              >
+              <a class="dropdown-item" href="./reisemedizin.html"
+                >Reisemedizin</a
+              >
+              <a class="dropdown-item" href="./akupunktur.html">Akupunktur</a>
+              <a class="dropdown-item" href="./gmz.html">GMZ</a>
+              <a class="dropdown-item" href="./kontakt.html">Kontakt</a>
             </div>
           </div>
         </div>
@@ -254,11 +250,10 @@
     </div>
     <div class="container-hero">
       <div class="row">
-        <div class="col">
+        <div class="col col-image">
           <img
             src="./assets/robina-weermeijer-sAHiIKGKjjA-unsplash.jpg"
             alt=""
-            class="card-picture"
           />
         </div>
         <div class="col">
@@ -330,8 +325,8 @@
             <a href="./team.html" class="btn btn-primary">Über uns</a>
           </div>
         </div>
-        <div class="col">
-          <img src="./assets/team.jpg" alt="" class="card-picture" />
+        <div class="col col-image">
+          <img src="./assets/team.jpg" alt="" />
         </div>
       </div>
     </div>
