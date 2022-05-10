@@ -20,4 +20,3 @@ lazy load
 ggf. bilder zu webp umändern
 SEO Analyse
 https://freetools.seobility.net/de/seocheck/check?url=https%3A%2F%2Fthwalln.github.io%2Fpraxis.github.io%2Findex.html&crawltype=1
-sprache von en zu de ändern
