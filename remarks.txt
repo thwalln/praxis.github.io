@@ -10,3 +10,14 @@
 und auch noch die leistungsseiten optimieren, auf der rechten Seite ist zu viel space
 
 Klassen etc. umbennen und optimieren
+
+
+
+
+Bilder runterskalieren (immer doppelt so breit wie im Browser)
+w3c validation machen
+lazy load
+ggf. bilder zu webp umändern
+SEO Analyse
+https://freetools.seobility.net/de/seocheck/check?url=https%3A%2F%2Fthwalln.github.io%2Fpraxis.github.io%2Findex.html&crawltype=1
+sprache von en zu de ändern
