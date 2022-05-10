@@ -115,6 +115,11 @@ p {
   font-weight: 300;
 }
 
+.grey-background.small-margin {
+  padding-top: 60px;
+  padding-bottom: 80px 0;
+}
+
 a {
   background-color: transparent;
   color: #333;
