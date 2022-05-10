@@ -945,6 +945,15 @@ td {
     height: 65px;
   }
 
+  team-image-col {
+    min-height: auto;
+  }
+
+  .team-image {
+    object-fit: cover;
+    width: 100%;
+  }
+
   .hero {
     margin-top: 65px;
     height: calc(100vh - 65px);
