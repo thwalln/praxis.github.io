@@ -21,4 +21,4 @@ SEO Analyse
 https://freetools.seobility.net/de/seocheck/check?url=https%3A%2F%2Fthwalln.github.io%2Fpraxis.github.io%2Findex.html&crawltype=1
 alt zu den Bildern hinzufügen
 googlesearch console machen, wenn auf die richtige domain umgegzogen wurde
-Kontakt Map neu machen
+Kontakt Map neu machen.
