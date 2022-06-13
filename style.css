@@ -880,6 +880,14 @@ td {
     margin-top: 65px;
   }
 
+  #team-image {
+    min-height: 350px;
+  }
+
+  #team-image-container {
+    min-height: 350px;
+  }
+
   .footer-heading {
     margin-bottom: 12px;
   }
