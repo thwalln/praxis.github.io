@@ -537,6 +537,11 @@ td {
   list-style-type: none;
 }
 
+.list-exclusive .sublist {
+  padding-left: 24px;
+  margin-top: 0px;
+}
+
 .list-exclusive li {
   background: url('./assets/checkbox.svg') left center no-repeat;
   padding-left: 32px;
