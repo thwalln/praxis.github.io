@@ -1,9 +1,9 @@
 <p>
   Telefonische Sprechzeiten
   Montag 08:30 – 12:00 Uhr und 15:30 bis 18:00 Uhr Dienstag 08:30
-  – 12:00 Uhr und 15:30 bis 18:00 Uhr Mittwoch 08:30 – 12:00 Uhr
+  – 12:00 Uhr und 15:30 bis 18:00 Uhr Mittwoch 08:30 – 12:30 Uhr
   Donnerstag 08:30 – 12:00 Uhr und 15:30 bis 18:00 Uhr Freitag
-  08:00 – 14:00 Uhr
+  08:00 – 12:30 Uhr
 </p>
 
 
