@@ -1,12 +1,3 @@
-<p>
-  Telefonische Sprechzeiten
-  Montag 08:30 – 12:00 Uhr und 15:30 bis 18:00 Uhr Dienstag 08:30
-  – 12:00 Uhr und 15:30 bis 18:00 Uhr Mittwoch 08:30 – 12:30 Uhr
-  Donnerstag 08:30 – 12:00 Uhr und 15:30 bis 18:00 Uhr Freitag
-  08:00 – 12:30 Uhr
-</p>
-
-
 und auch noch die leistungsseiten optimieren, auf der rechten Seite ist zu viel space
 
 Klassen etc. umbennen und optimieren
