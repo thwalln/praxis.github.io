@@ -232,7 +232,6 @@ header {
 .nav-link:hover::before,
 #index .nav-link.index::before,
 #praxis .nav-link.praxis::before,
-#covid .nav-link.covid::before,
 #gmz .nav-link.gmz::before,
 #team .nav-link.team::before,
 #kontakt .nav-link.kontakt::before,
