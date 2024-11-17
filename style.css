@@ -397,7 +397,7 @@ header {
   padding-bottom: 80px;
 }
 
-.row.small-screen {
+.small-screen {
   display: none;
 }
 
@@ -603,6 +603,35 @@ td {
   background-color: #fff;
   color: #2f7393;
   background-image: url('./assets/phone-blue.svg');
+}
+
+.btn-transparent.calendar {
+  background-image: url('./assets/calendar-blue.svg');
+  color: #2f7393;
+  border: 2px solid #2f7393;
+  background-size: 20px;
+}
+
+.btn-transparent.calendar:hover {
+  background-color: #2f7393;
+  color: #fff;
+  background-image: url('./assets/calendar-white.svg');
+}
+
+.btn-transparent.calendar.blue {
+  background-color: #2f7393;
+  color: #fff;
+  background-image: url('./assets/calendar-white.svg');
+}
+
+.btn-transparent.calendar.blue:hover {
+  background-color: #fff;
+  color: #2f7393;
+  background-image: url('./assets/calendar-blue.svg');
+}
+
+.termin {
+  width: 200px;
 }
 
 .btn-transparent {
@@ -1027,11 +1056,11 @@ td {
     hyphens: auto;
   }
 
-  .row.small-screen {
+  .small-screen {
     display: block;
   }
 
-  .row.large-screen {
+  .large-screen {
     display: none;
   }
 
