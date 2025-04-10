@@ -232,6 +232,7 @@ header {
 .nav-link:hover::before,
 #index .nav-link.index::before,
 #praxis .nav-link.praxis::before,
+#termin .nav-link.termin::before,
 #gmz .nav-link.gmz::before,
 #team .nav-link.team::before,
 #kontakt .nav-link.kontakt::before,
@@ -628,10 +629,6 @@ td {
   background-color: #fff;
   color: #2f7393;
   background-image: url('./assets/calendar-blue.svg');
-}
-
-.termin {
-  width: 200px;
 }
 
 .btn-transparent {

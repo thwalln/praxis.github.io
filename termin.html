@@ -10,10 +10,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Hausarztpraxis Farchant</title>
   </head>
-  <body id="index">
+  <body id="termin" class="body-2">
     <header>
       <div class="nav-container">
         <a href="./index.html">
@@ -104,24 +104,89 @@
         </div>
       </div>
     </header>
-    <div class="hero">
-      <div class="hero-content">
-        <h1 class="hero-h1">
-          Herzlich Willkommen in der Hausarztpraxis Farchant
-        </h1>
-        <p class="hero-paragraph">
-          Ihrer Praxis für Allgemeinmedizin, Innere Medizin, Akupunktur und
-          Reisemedizin.
-        </p>
-        <div class="large-screen">
-          <a href="#sprechzeiten" class="btn btn-transparent sprechzeiten"
-            >Sprechzeiten</a
-          >
+    <div class="first-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <div>
+                <p class="text-uppercase">Information</p>
+                <h1>Terminvereinbarung</h1>
+              </div>
+              <p>
+                Um Ihren Termin optimal vorzubereiten, bitten wir sie um eine
+            vorhergehende Terminvereinbarung, entweder telefonisch oder online.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./assets/termin.jpg" alt="" class="hero-img-leistung" />
+          </div>
         </div>
-        <div class="small-screen">
-          <a href="#sprechzeiten" class="btn btn-transparent sprechzeiten"
-            >Terminvereinbarung</a
-          >
+      </div>
+    </div>
+    <div class="grey-background">
+      <div class="container text-block">
+        <div class="row margin-top-mobile">
+          <div class="col">
+            <h2>Telefonische Terminbuchung</h2>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>
+                Sie erreichen uns während unserer <a href="#sprechzeiten"
+                >Sprechzeiten</a
+              > telefonisch unter der <a href="tel:+4988216762">+49 8821 6762</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row margin-top-mobile mt-3">
+          <div class="col">
+            <h2>Online Terminbuchung</h2>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3>Persönliche Sprechstunde</h3>
+              <p>Sie haben die Möglichkeit, individuell bei einem unserer beiden Ärzte Herrn Dr. med. Lukas Wallner oder Herrn Dr. med. Florian Gesele einen Termin zu buchen.</p>
+              <p>
+                <a
+                  href="https://www.termed.de/arzt/8940/dr-med-lukas-wallner"
+                  target="_blank"
+                  class="btn btn-transparent calendar termin"
+                >
+                  Termin Dr. Wallner
+                </a>
+                <a
+                  href="https://www.termed.de/arzt/8939/dr-med-florian-gesele"
+                  target="_blank"
+                  class="btn btn-transparent calendar termin ms-2"
+                >
+                Termin Dr. Gesele
+                </a>
+              </p>
+              <h3 class="mt-5">Offene Videosprechstunde</h3>
+              <p>Außerdem bieten wir Montag bis Donnerstag eine offene Videosprechstunde zwischen 12 Uhr und 13 Uhr für unsere Patienten an. Über die nachfolgenden Buttons, können Sie sich für eine Videosprechstunde anmelden.</p>
+              <p>
+                <a
+                  href="https://viomedi.de/wartezimmer/WR2UNK87K"
+                  target="_blank"
+                  class="btn btn-transparent calendar termin"
+                >
+                  Termin Dr. Wallner
+                </a>
+                <a
+                  href="https://viomedi.de/wartezimmer/WEKLZ1Y3X"
+                  target="_blank"
+                  class="btn btn-transparent calendar termin ms-2"
+                >
+                Termin Dr. Gesele
+                </a>
+              </p>
+            
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -150,8 +215,7 @@
             Um Ihren Termin optimal vorzubereiten, bitten wir sie um eine
             vorhergehende Terminvereinbarung, entweder telefonisch oder online.
           </p>
-          <p>
-            <a href="./termin.html" class="btn btn-transparent calendar blue">
+         <a href="./termin.html" class="btn btn-transparent calendar blue">
               Termin buchen
             </a>
         </div>
@@ -213,7 +277,7 @@
                 </tr>
                 <tr class="table-border">
                   <th scope="row" class="day-highlight">Mittwoch</th>
-                  <td>08.00 - 12.00</td>
+                  <td>08.00 - 12.30</td>
                 </tr>
                 <tr class="table-border">
                   <th scope="row" class="day-highlight">Donnerstag</th>
@@ -259,150 +323,38 @@
         </div>
       </div>
     </div>
-    <div class="container-hero">
-      <div class="row">
-        <div class="col col-image">
-          <img src="./assets/herz.jpg" alt="" loading="lazy" />
-        </div>
-        <div class="col">
-          <div class="div-block-wrapper">
-            <div class="div-block">
-              <h3>Allgemeinmedizin & Innere Medizin</h3>
-              <p class="grid--card--text">
-                Als langjährige Ansprechpartner für Ihre gesundheitlichen Fragen
-                und Anliegen sind wir stets an Ihrer Seite und bieten Ihnen
-                individuelle Lösungen vor dem Hintergrund einer ganzheitlichen
-                Betrachtungsweise an.
-              </p>
-              <a href="./allgemeinmedizin.html" class="grid-card--link"
-                >Mehr erfahren</a
-              >
-            </div>
-            <div class="div-block">
-              <h3>Reisemedizin</h3>
-              <p class="grid--card--text">
-                Gerade bei Reisen können viele Erkrankungen oder
-                Unannehmlichkeiten durch Vorbeugung vermieden werden.
-              </p>
-              <a href="./reisemedizin.html" class="grid-card--link"
-                >Mehr erfahren</a
-              >
-            </div>
-            <div class="div-block-borderless">
-              <h3>Akupunktur</h3>
-              <p class="grid--card--text">
-                Akupunktur und chinesische Medizin werden für die Behandlung
-                zahlreicher Erkrankungen eingesetzt, z.B. bei Migräne, Kopf- und
-                Rückenschmerzen, Muskel- und Gelenksbeschwerden, oder bei
-                Infektanfälligkeit.
-              </p>
-              <a href="./akupunktur.html" class="grid-card--link"
-                >Mehr erfahren</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-hero">
-      <div class="row reverse">
-        <div class="col kartoffelsalt">
-          <div class="ttttt">
-            <h2>Das erwartet Sie</h2>
-            <ul class="card-list">
-              <li class="card-list--item">
-                <div>
-                  <img src="./assets/checkbox.svg" alt="" loading="lazy" />
-                </div>
-                <p class="grid--card--text">
-                  Qualtitative Allgemeinmedizin mit moderner Technik
-                </p>
-              </li>
-              <li class="card-list--item">
-                <div>
-                  <img src="./assets/checkbox.svg" loading="lazy" alt="" />
-                </div>
-                <p class="grid--card--text">
-                  Verlässliche Beratung in vertrauensvoller Atomsphäre
-                </p>
-              </li>
-              <li class="card-list--item">
-                <div>
-                  <img src="./assets/checkbox.svg" loading="lazy" alt="" />
-                </div>
-                <p class="grid--card--text">
-                  Präzise, gewissenhafte Behandlung fundiert auf den aktuellen
-                  wissenschaftlichen Erkenntnissen
-                </p>
-              </li>
-            </ul>
-            <a href="./team.html" class="btn btn-primary">Über uns</a>
-          </div>
-        </div>
-        <div class="col team-image-col col-image" id="team-image-container">
-          <img
-            class="team-image"
-            id="team-image"
-            src="./assets/team.jpg"
-            loading="lazy"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-    <div class="container padding-top">
-      <div class="row">
-        <div class="col">
-          <h2 class="section-title">Was uns als Hausärzte auszeichnet</h2>
-        </div>
-      </div>
-      <div class="row flex-start">
-        <div class="col flex-center">
-          <div class="icon">
-            <img src="./assets/emoticon-excited.svg" loading="lazy" alt="" />
-          </div>
-          <h4>Wir lieben unsere Arbeit als Hausärzte</h4>
-          <p>
-            Es bereitet uns Freude, Menschen in unserer Praxis zu helfen. Unsere
-            Erfahrung setzen wir ein, um Ihnen die bestmögliche Behandlung zu
-            ermöglichen.
-          </p>
-        </div>
-        <div class="col flex-center">
-          <div class="icon">
-            <img src="./assets/hand-heart.svg" loading="lazy" alt="" />
-          </div>
-          <h4>Eine familiäre Atmosphäre ist für uns von größter Bedeutung</h4>
-          <p>
-            Eine vertraute Beziehung zu unseren Patienten steht dabei absolut im
-            Vordergrund. Wir nehmen uns für Sie Zeit und möchten, dass Sie sich
-            bei uns wohlfühlen.
-          </p>
-        </div>
-        <div class="col flex-center">
-          <div class="icon">
-            <img src="./assets/needle.svg" loading="lazy" alt="" />
-          </div>
-          <h4>Unsere Praxisräume sind modern und freundlich</h4>
-          <p>
-            Wir bieten Ihnen eine moderne Praxisausstattung und den neuesten
-            Stand der medizinischen Technik! Bei uns sind Sie in den besten
-            Händen!
-          </p>
-        </div>
-      </div>
+    <div class="container-photo-section">
+      <img
+        src="./assets/sono.jpg"
+        alt=""
+        loading="lazy"
+        class="container-photo"
+      />
+      <img
+        src="./assets/blutabnahme.jpg"
+        alt=""
+        loading="lazy"
+        class="container-photo"
+      />
+      <img
+        src="./assets/behandlung.jpg"
+        alt=""
+        loading="lazy"
+        class="container-photo"
+      />
+      <img
+        src="./assets/vaccination-pass.jpg"
+        alt=""
+        loading="lazy"
+        class="container-photo"
+      />
     </div>
     <footer class="footer">
       <div class="container">
         <div class="row footer">
           <div class="col footer-col-left margin-bottom">
             <h3 class="footer-hl">
-              <img
-                src="./assets/logo-grey.svg"
-                loading="lazy"
-                alt=""
-                class="icon--left"
-              />
+              <img src="./assets/logo-grey.svg" alt="" class="icon--left" />
               Hausarztpraxis Farchant
             </h3>
             <p>
@@ -483,7 +435,6 @@
         </p>
       </div>
     </footer>
-    <script src="./app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
